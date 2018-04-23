@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\BRG_Project.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{D4BF1C2A-392E-4267-AEF2-5A4B1E20A68B}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\BRG_Project.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\BRG_ProjectEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{641DE53D-0B86-4E8B-817E-4A75B0BBDA07}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\BRG_Project">
+			<UniqueIdentifier>{88EF4A18-1D92-49C7-AD1C-5DC5E7D1C909}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\BRG_Project\BRG_Project.Build.cs">
+			<Filter>Source\BRG_Project</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\BRG_Project\BRG_Project.cpp">
+			<Filter>Source\BRG_Project</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\BRG_Project\BRG_Project.h">
+			<Filter>Source\BRG_Project</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\BRG_Project\BRG_ProjectGameModeBase.cpp">
+			<Filter>Source\BRG_Project</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\BRG_Project\BRG_ProjectGameModeBase.h">
+			<Filter>Source\BRG_Project</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>

@@ -1,0 +1,7 @@
+﻿  Performing full C++ include scan (hot reloading a new target)
+  Using 'git status' to determine working set for adaptive non-unity build.
+  Creating makefile for hot reloading BRG_ProjectEditor (no existing makefile)
+  Compiling game modules for hot reload
+  Target is up to date
+  Deploying BRG_ProjectEditor Win64 Development...
+  Total build time: 6,94 seconds (NoActionsToExecute executor: 0,00 seconds)

@@ -45,3 +45,6 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# Ignore na podstawie tutka z https://wiki.unrealengine.com/GitHub_Desktop_to_manage_your_project
+*.VC.db
