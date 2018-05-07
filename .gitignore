@@ -46,10 +46,19 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-# Ignore na podstawie tutka z https://wiki.unrealengine.com/GitHub_Desktop_to_manage_your_project
-*.VC.db
+
 
 
 #przyklad gitignora dla Unrealowego projektu https://github.com/samsheff/UE4-Gitignore/blob/master/UE4.gitignore
 
 Saved/*
+Binaries/*
+Intermediate/*
+
+*.xcodeproj
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.sln
+*.vc.db
