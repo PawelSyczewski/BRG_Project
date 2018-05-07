@@ -1,0 +1,1290 @@
+﻿Log file open, 05/07/18 12:47:33
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: BRG_Project
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-1421294733) SRandInit(-1421294733).
+LogInit: Read version file with build ID '3944462'
+LogInit: Overriding engine version to CL 3989454, compatible CL 3944462
+LogInit: Registered custom module enumerator with build ID '3944462'
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.165787
+LogD3D11RHI: Aftermath initialized
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.126s to configure plugins.
+LogModuleManager: Display: Found up-to-date module file C:/Users/i3/Documents/GitHub/BRG_Project/Binaries/Win64/UE4Editor-BRG_Project.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLink.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLinkEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/CLionSourceCodeAccess/Binaries/Win64/UE4Editor-CLionSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeys.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeysOpenSSL.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/DataValidation/Binaries/Win64/UE4Editor-DataValidation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Enterprise/DatasmithContent/Binaries/Win64/UE4Editor-DatasmithContent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/LinearTimecode/Binaries/Win64/UE4Editor-LinearTimecode.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/Binaries/Win64/UE4Editor-NetcodeUnitTest.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/Binaries/Win64/UE4Editor-NUTUnrealEngine4.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCaptureEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3944462).
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: WinSock: I am DESKTOP-FKIV5KR (192.168.1.20:0)
+LogInit: Build: ++UE4+Release-4.19-CL-3989454
+LogInit: Engine Version: 4.19.1-3989454+++UE4+Release-4.19
+LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
+LogInit: Net CL: 3944462
+LogDevObjectVersion: Number of dev versions registered: 18
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 23
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 33
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 25
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 6
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 1
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 2
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 16
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogInit: Compiled (64-bit): Apr  6 2018 12:26:04
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.19
+LogInit: Command Line: -EpicPortal 
+LogInit: Base Directory: D:/Programy/UNREAL ENIGNE/UE_4.19/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogStreaming: Display: Took  0.001s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.05.07-10.47.35:356][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.07-10.47.35:356][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.05.07-10.47.35:393][  0]LogInit: Computer: DESKTOP-FKIV5KR
+[2018.05.07-10.47.35:393][  0]LogInit: User: i3
+[2018.05.07-10.47.35:393][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.05.07-10.47.35:393][  0]LogInit: High frequency timer resolution =3.515630 MHz
+[2018.05.07-10.47.35:394][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.05.07-10.47.35:394][  0]LogMemory: Platform Memory Stats for Windows
+[2018.05.07-10.47.35:394][  0]LogMemory: Process Physical Memory: 275.37 MB used, 275.37 MB peak
+[2018.05.07-10.47.35:394][  0]LogMemory: Process Virtual Memory: 261.83 MB used, 261.83 MB peak
+[2018.05.07-10.47.35:394][  0]LogMemory: Physical Memory: 4397.42 MB used,  3729.87 MB free, 8127.29 MB total
+[2018.05.07-10.47.35:394][  0]LogMemory: Virtual Memory: 665.81 MB used,  3729.87 MB free, 134217728.00 MB total
+[2018.05.07-10.47.35:427][  0]LogInit: Using OS detected language (pl-PL).
+[2018.05.07-10.47.35:427][  0]LogInit: Using OS detected locale (pl-PL).
+[2018.05.07-10.47.35:431][  0]LogTextLocalizationManager: No localization for 'pl-PL' exists, so 'en' will be used for the language.
+[2018.05.07-10.47.35:811][  0]LogStreaming: Display: Took  0.384s to EndInitTextLocalization.
+[2018.05.07-10.47.35:811][  0]LogInit: Setting process to per monitor DPI aware
+[2018.05.07-10.47.35:832][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.05.07-10.47.35:832][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.05.07-10.47.35:989][  0]LogD3D11RHI: D3D11 adapters:
+[2018.05.07-10.47.36:043][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2018.05.07-10.47.36:043][  0]LogD3D11RHI:       8079/0/4063 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.05.07-10.47.36:045][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.05.07-10.47.36:045][  0]LogD3D11RHI:       0/0/4063 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.05.07-10.47.36:045][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.05.07-10.47.36:051][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.05.07-10.47.36:051][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2018.05.07-10.47.36:051][  0]LogWindows: EnumDisplayDevices:
+[2018.05.07-10.47.36:051][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2018.05.07-10.47.36:051][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.05.07-10.47.36:051][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.05.07-10.47.36:051][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.05.07-10.47.36:051][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.05.07-10.47.36:051][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2018.05.07-10.47.36:051][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.05.07-10.47.36:051][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.05.07-10.47.36:051][  0]LogRHI: Texture pool is 5655 MB (70% of 8079 MB)
+[2018.05.07-10.47.36:080][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.05.07-10.47.36:080][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.05.07-10.47.36:080][  0]LogD3D11RHI: Async texture creation enabled
+[2018.05.07-10.47.36:096][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.05.07-10.47.36:144][  0]LogShaderCompilers: Guid format shader working directory is 2 characters bigger than the processId version (C:/Users/i3/Documents/GitHub/BRG_Project/Intermediate/Shaders/WorkingDirectory/12972/).
+[2018.05.07-10.47.36:144][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/i3/AppData/Local/Temp/UnrealShaderWorkingDir/CD025AF0487056D01467D5973A76AA32/'.
+[2018.05.07-10.47.36:375][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.05.07-10.47.36:387][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.05.07-10.47.36:399][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.05.07-10.47.36:411][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.05.07-10.47.36:422][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.05.07-10.47.36:434][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.05.07-10.47.36:445][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.05.07-10.47.36:457][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.05.07-10.47.36:463][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.05.07-10.47.36:473][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.05.07-10.47.36:483][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.05.07-10.47.36:495][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.05.07-10.47.36:505][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.05.07-10.47.36:515][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.05.07-10.47.36:525][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.05.07-10.47.36:548][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.05.07-10.47.36:548][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.05.07-10.47.36:558][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.05.07-10.47.36:559][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.05.07-10.47.36:594][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.05.07-10.47.36:616][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.05.07-10.47.36:626][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.05.07-10.47.36:636][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.05.07-10.47.36:648][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.05.07-10.47.36:658][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.05.07-10.47.36:658][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.05.07-10.47.36:749][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.05.07-10.47.36:749][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.05.07-10.47.36:749][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.05.07-10.47.37:328][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.05.07-10.47.37:404][  0]LogDerivedDataCache: Loaded boot cache 0.08s 74MB C:/Users/i3/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.05.07-10.47.37:404][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/i3/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.05.07-10.47.37:404][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/i3/Documents/GitHub/BRG_Project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.05.07-10.47.37:404][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.05.07-10.47.37:404][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/i3/Documents/GitHub/BRG_Project/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.05.07-10.47.37:404][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.05.07-10.47.37:418][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.05.07-10.47.37:431][  0]LogDerivedDataCache: Using Local data cache path C:/Users/i3/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.05.07-10.47.37:441][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.05.07-10.47.37:441][  0]LogSlate: Using Freetype 2.6.0
+[2018.05.07-10.47.37:442][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.07-10.47.37:442][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.07-10.47.37:553][  0]LogAssetRegistry: FAssetRegistry took 0.0255 seconds to start up
+[2018.05.07-10.47.37:813][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.07-10.47.37:938][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.05.07-10.47.37:940][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.05.07-10.47.37:940][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.05.07-10.47.37:940][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.05.07-10.47.37:940][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.05.07-10.47.37:940][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.05.07-10.47.37:968][  0]LogNetVersion: BRG_Project , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3504874490)
+[2018.05.07-10.47.38:370][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 1 prioritized culture(s) in 0.040164 seconds
+[2018.05.07-10.47.38:375][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.05.07-10.47.38:375][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
+[2018.05.07-10.47.38:375][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.05.07-10.47.39:921][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.05.07-10.47.39:948][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.05.07-10.47.40:282][  0]SourceControl: Source control is disabled
+[2018.05.07-10.47.40:282][  0]SourceControl: Source control is disabled
+[2018.05.07-10.47.40:298][  0]SourceControl: Source control is disabled
+[2018.05.07-10.47.40:312][  0]SourceControl: Source control is disabled
+[2018.05.07-10.47.40:731][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.05.07-10.47.40:856][  0]LogOcInput: OculusInput pre-init called
+[2018.05.07-10.47.40:948][  0]LogEngine: Initializing Engine...
+[2018.05.07-10.47.40:949][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.05.07-10.47.40:950][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.05.07-10.47.40:950][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.05.07-10.47.41:166][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.05.07-10.47.41:234][  0]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.07-10.47.41:250][  0]LogInit: FAudioDevice initialized.
+[2018.05.07-10.47.41:381][  0]LogDerivedDataCache: Saved boot cache 0.13s 74MB C:/Users/i3/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.05.07-10.47.41:398][  0]LogInit: Texture streaming: Enabled
+[2018.05.07-10.47.41:414][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.05.07-10.47.41:426][  0]LogInit: Transaction tracking system initialized
+[2018.05.07-10.47.41:445][  0]BlueprintLog: New page: Editor Load
+[2018.05.07-10.47.41:505][  0]LocalizationService: Localization service is disabled
+[2018.05.07-10.47.41:588][  0]LogConsoleResponse: Display: 
+[2018.05.07-10.47.41:718][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.05.07-10.47.41:718][  0]LogCook: Display: Mobile HDR setting 1
+[2018.05.07-10.47.41:718][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.05.07-10.47.41:718][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.05.07-10.47.41:718][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.05.07-10.47.41:836][  0]LogFileCache: Scanning file cache for directory 'C:/Users/i3/Documents/GitHub/BRG_Project/Content/' took 0.01s
+[2018.05.07-10.47.42:021][  0]SourceControl: Source control is disabled
+[2018.05.07-10.47.42:021][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.07-10.47.42:022][  0]LightingResults: New page: Lighting Build
+[2018.05.07-10.47.42:024][  0]MapCheck: New page: Map Check
+[2018.05.07-10.47.42:024][  0]LightingResults: New page: Lighting Build
+[2018.05.07-10.47.42:202][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2018.05.07-10.47.42:209][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.05.07-10.47.42:220][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.07-10.47.42:257][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 37,11ms to complete.
+[2018.05.07-10.47.42:257][  0]LogFileHelpers: Loading map 'Template_Default' took 0.236
+[2018.05.07-10.47.42:378][  0]LogCollectionManager: Loaded 0 collections in 0.001596 seconds
+[2018.05.07-10.47.42:429][  0]LogFileCache: Scanning file cache for directory 'C:/Users/i3/Documents/GitHub/BRG_Project/Saved/Collections/' took 0.01s
+[2018.05.07-10.47.42:429][  0]LogFileCache: Scanning file cache for directory 'C:/Users/i3/Documents/GitHub/BRG_Project/Content/Developers/i3/Collections/' took 0.01s
+[2018.05.07-10.47.42:429][  0]LogFileCache: Scanning file cache for directory 'C:/Users/i3/Documents/GitHub/BRG_Project/Content/Collections/' took 0.01s
+[2018.05.07-10.47.42:429][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.05.07-10.47.42:442][  0]LogContentBrowser: Native class hierarchy populated in 0.0127 seconds. Added 2453 classes and 560 folders.
+[2018.05.07-10.47.42:449][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2018.05.07-10.47.42:489][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.05.07-10.47.42:493][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2018.05.07-10.47.42:511][  0]LogSlate: Took 0.000220 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.05.07-10.47.42:513][  0]LogSlate: Took 0.000317 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.05.07-10.47.42:520][  0]LogSlate: Took 0.000325 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.05.07-10.47.42:606][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2018.05.07-10.47.42:734][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.07-10.47.42:744][  0]LogSlate: Window 'Tutorials' being destroyed
+[2018.05.07-10.47.42:778][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0018 seconds. Added 0 classes and 0 folders.
+[2018.05.07-10.47.42:778][  0]LogLoad: (Engine Initialization) Total time: 9.96 seconds
+[2018.05.07-10.47.42:778][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.05.07-10.47.43:133][  0]LogAssetRegistry: Asset discovery search completed in 5.6023 seconds
+[2018.05.07-10.47.43:134][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.05.07-10.47.43:134][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000051 seconds (updated 0 objects)
+[2018.05.07-10.47.43:137][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.05.07-10.47.43:172][  0]LogSlate: Took 0.000229 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.05.07-10.47.48:134][ 15]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.07-10.47.50:396][267]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.07-10.47.51:809][431]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.07-10.47.53:076][563]Cmd: MAP LOAD FILE="C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.07-10.47.53:080][563]LogSlate: Took 0.000169 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.05.07-10.47.53:089][563]LightingResults: New page: Lighting Build
+[2018.05.07-10.47.53:089][563]LoadErrors: New page: Loading map: ChurchV1.umap
+[2018.05.07-10.47.53:092][563]MapCheck: New page: Map Check
+[2018.05.07-10.47.53:092][563]LightingResults: New page: Lighting Build
+[2018.05.07-10.47.53:332][563]LogAIModule: Creating AISystem for world ChurchV1
+[2018.05.07-10.47.53:350][563]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.05.07-10.47.53:378][563]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.07-10.47.53:418][563]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 39,388ms to complete.
+[2018.05.07-10.47.53:418][563]LogFileHelpers: Loading map 'ChurchV1' took 0.363
+[2018.05.07-10.47.53:438][563]LogSlate: Window 'Open Level' being destroyed
+[2018.05.07-10.48.00:179][352]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.07-10.48.06:852][139]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.07-10.48.53:220][551]Cmd: DELETE
+[2018.05.07-10.48.53:220][551]Cmd: ACTOR DELETE
+[2018.05.07-10.48.53:238][551]LogEditorActor: Deleted Actor: Brush
+[2018.05.07-10.48.53:441][551]LogEditorActor: Deleted 1 Actors (0.220 secs)
+[2018.05.07-10.49.07:750][161]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.07-10.49.15:274][ 22]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.05.07-10.49.39:633][878]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.07-10.49.39:775][895]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.07-10.49.39:784][895]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.07-10.49.39:785][895]PIE: New page: PIE session: ChurchV1 (7 maj 2018, 14:49:39)
+[2018.05.07-10.49.39:785][895]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ChurchV1
+[2018.05.07-10.49.39:845][895]LogPlayLevel: PIE: StaticDuplicateObject took: (0.060647s)
+[2018.05.07-10.49.39:847][895]LogAIModule: Creating AISystem for world ChurchV1
+[2018.05.07-10.49.39:847][895]LogPlayLevel: PIE: World Init took: (0.001350s)
+[2018.05.07-10.49.39:847][895]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ChurchV1.ChurchV1 to /Game/Maps/UEDPIE_0_ChurchV1.ChurchV1 (0.062316s)
+[2018.05.07-10.49.39:867][895]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.07-10.49.39:881][895]LogInit: FAudioDevice initialized.
+[2018.05.07-10.49.39:920][895]LogLoad: Game class is 'GameModeBase'
+[2018.05.07-10.49.39:925][895]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ChurchV1.ChurchV1 up for play (max tick rate 0) at 2018.05.07-12.49.39
+[2018.05.07-10.49.39:925][895]LogWorld: Bringing up level for play took: 0.003507
+[2018.05.07-10.49.39:929][895]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
+[2018.05.07-10.49.39:930][895]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_ChurchV1 0,87
+[2018.05.07-10.50.01:722][482]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.07-10.50.04:044][757]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.05.07-10.50.19:882][523]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.07-10.50.34:512][140]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.07-10.50.38:219][553]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.05.07-10.51.07:370][877]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.07-10.51.08:545][  4]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.05.07-10.51.28:778][212]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.07-10.51.28:791][212]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ChurchV1" FILE="C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.05.07-10.51.29:278][212]LogSavePackage: Save=455.83ms
+[2018.05.07-10.51.29:278][212]LogSavePackage: Moving 'C:/Users/i3/Documents/GitHub/BRG_Project/Saved/ChurchV107DD242F4AE2D1B49B46B59A913F4532.tmp' to 'C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap'
+[2018.05.07-10.51.29:283][212]LogSavePackage: Display: Finished SavePackage C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap
+[2018.05.07-10.51.29:305][212]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ChurchV1_BuiltData" FILE="C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset" SILENT=true
+[2018.05.07-10.51.29:321][212]LogSavePackage: Save=10.38ms
+[2018.05.07-10.51.29:321][212]LogSavePackage: Moving 'C:/Users/i3/Documents/GitHub/BRG_Project/Saved/ChurchV1_BuiltDataA2C7522D48B480DFB9B56792D77B9BE4.tmp' to 'C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset'
+[2018.05.07-10.51.29:323][212]LogSavePackage: Display: Finished SavePackage C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset
+[2018.05.07-10.51.58:869][535]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.07-10.52.05:705][193]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.07-10.52.07:483][371]MapCheck: New page: Map Check
+[2018.05.07-10.52.07:537][371]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.07-10.52.07:549][371]Cmd: MAP REBUILD ALLVISIBLE
+[2018.05.07-10.52.07:554][371]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.05.07-10.52.15:767][371]LightingResults: New page: Lighting Build - 7 maj 2018, 14:52:15
+[2018.05.07-10.52.16:186][371]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.05.07-10.52.16:372][371]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.05.07-10.52.16:613][371]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.05.07-10.52.19:197][371]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.05.07-10.52.19:197][371]LogSwarmInterface: [TryOpenConnection] Local Process ID is 12972
+[2018.05.07-10.52.27:847][371]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.05.07-10.52.27:849][371]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.05.07-10.52.27:849][371]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.05.07-10.52.27:849][371]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.05.07-10.52.27:849][371]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.05.07-10.52.27:849][371]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.05.07-10.52.28:536][371]LogEditorBuildUtils: Build time 0:20
+[2018.05.07-10.52.28:547][371]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_1, compiling. 
+[2018.05.07-10.52.28:621][371]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.05.07-10.52.28:621][371]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_1, compiling. 
+[2018.05.07-10.52.28:656][372]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer BasicShapeMaterial, compiling. 
+[2018.05.07-10.52.28:661][372]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer BasicShapeMaterial, compiling. 
+[2018.05.07-10.52.28:689][373]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2018.05.07-10.52.28:697][373]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2018.05.07-10.52.31:076][374]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.05.07-10.52.31:115][375]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.07-10.52.31:177][375]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.07-10.52.33:157][393]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.05.07-10.53.16:268][610]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.07-10.55.14:114][ 64]Job is a success!
+[2018.05.07-10.55.14:211][ 65]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.07-10.55.14:513][ 65]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.098s
+[2018.05.07-10.55.14:513][ 65]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2018.05.07-10.55.14:513][ 65]LogVolumetricLightmapImport:      BrickData 1280x10x5 = 2.3Mb (trimmed 0.7Mb due to 0.010000 MinBrickError)
+[2018.05.07-10.55.14:513][ 65]LogVolumetricLightmapImport:      Bricks at Level
+[2018.05.07-10.55.14:513][ 65]LogVolumetricLightmapImport:          0: 0.3% covering 100.0% of volume
+[2018.05.07-10.55.14:513][ 65]LogVolumetricLightmapImport:          1: 4.4% covering 21.9% of volume
+[2018.05.07-10.55.14:513][ 65]LogVolumetricLightmapImport:          2: 95.3% covering 7.5% of volume
+[2018.05.07-10.55.15:008][ 65]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 256X256)
+[2018.05.07-10.55.15:008][ 65]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 256X256)
+[2018.05.07-10.55.15:008][ 65]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2018.05.07-10.55.15:008][ 65]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2018.05.07-10.55.15:008][ 65]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32)
+[2018.05.07-10.55.15:008][ 65]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 128X64)
+[2018.05.07-10.55.15:253][ 65]Lightmass on DESKTOP-FKIV5KR: 2:40 min total, 501 ms importing, 192 ms setup, 11.4 sec photons, 2:28 min processing, 0 ms extra exporting [1865/1865 mappings]. Threads: 9:53 min total, 3:31 min processing.
+[2018.05.07-10.55.15:349][ 65]LogStaticLightingSystem: Illumination: 2:59 min (154 ms encoding lightmaps, 32 ms encoding shadowmaps)
+[2018.05.07-10.55.15:349][ 65]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 4 textures
+[2018.05.07-10.55.15:349][ 65]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.05.07-10.55.15:904][ 65]DumpUnbuiltLightIteractions
+[2018.05.07-10.55.15:904][ 65]Lights with unbuilt interactions: 0
+[2018.05.07-10.55.15:904][ 65]
+[2018.05.07-10.55.15:904][ 65]Primitives with unbuilt interactions: 0
+[2018.05.07-10.55.15:988][ 66]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.05.07-10.55.15:989][ 66]MapCheck: New page: ChurchV1 - 7 maj 2018, 14:55:15
+[2018.05.07-10.55.16:103][ 66]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 114,186ms to complete.
+[2018.05.07-10.55.33:619][129]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.07-10.55.35:888][375]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.05.07-10.55.38:089][574]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.07-10.56.02:977][366]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.07-10.57.29:212][719]Cmd: DELETE
+[2018.05.07-10.57.29:212][719]Cmd: ACTOR DELETE
+[2018.05.07-10.57.29:239][719]LogEditorActor: Deleted Actor: Brush
+[2018.05.07-10.57.29:240][719]LogEditorActor: Deleted Actor: Brush
+[2018.05.07-10.57.29:486][719]LogEditorActor: Deleted 2 Actors (0.274 secs)
+[2018.05.07-10.57.31:559][957]Cmd: DELETE
+[2018.05.07-10.57.31:560][957]Cmd: ACTOR DELETE
+[2018.05.07-10.57.31:580][957]LogEditorActor: Deleted Actor: Brush
+[2018.05.07-10.57.31:788][957]LogEditorActor: Deleted 1 Actors (0.228 secs)
+[2018.05.07-10.57.35:585][367]Cmd: DELETE
+[2018.05.07-10.57.35:585][367]Cmd: ACTOR DELETE
+[2018.05.07-10.57.35:605][367]LogEditorActor: Deleted Actor: Brush
+[2018.05.07-10.57.35:605][367]LogEditorActor: Deleted Actor: Brush
+[2018.05.07-10.57.35:810][367]LogEditorActor: Deleted 2 Actors (0.225 secs)
+[2018.05.07-10.58.38:424][204]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush33)
+[2018.05.07-10.59.55:866][475]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.05.07-11.00.26:906][114]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.07-11.00.26:912][114]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ChurchV1" FILE="C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.05.07-11.00.27:456][114]LogSavePackage: Save=482.84ms
+[2018.05.07-11.00.27:456][114]LogSavePackage: Moving 'C:/Users/i3/Documents/GitHub/BRG_Project/Saved/ChurchV16D8284E74AF9D176776DB0A30BF23177.tmp' to 'C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap'
+[2018.05.07-11.00.27:471][114]LogSavePackage: Display: Finished SavePackage C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap
+[2018.05.07-11.00.27:490][114]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ChurchV1_BuiltData" FILE="C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset" SILENT=true
+[2018.05.07-11.00.27:505][114]LogSavePackage: Save=9.83ms
+[2018.05.07-11.00.27:505][114]LogSavePackage: Moving 'C:/Users/i3/Documents/GitHub/BRG_Project/Saved/ChurchV1_BuiltDataD2A6EC8C4E4A1EA790F40A870881FCA4.tmp' to 'C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset'
+[2018.05.07-11.00.27:509][114]LogSavePackage: Display: Finished SavePackage C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset
+[2018.05.07-11.00.44:208][333]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.07-11.01.00:118][ 76]Cmd: TRANSACTION UNDO
+[2018.05.07-11.01.00:118][ 76]LogEditorTransaction: Undo Scale Actors
+[2018.05.07-11.01.00:152][ 76]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush52.BrushComponent0) Component already registered.
+[2018.05.07-11.01.00:154][ 76]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.ConeBrush3.BrushComponent0) Component already registered.
+[2018.05.07-11.01.00:155][ 76]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush67.BrushComponent0) Component already registered.
+[2018.05.07-11.01.00:162][ 76]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush163.BrushComponent0) Component already registered.
+[2018.05.07-11.01.00:191][ 76]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush27.BrushComponent0) Component already registered.
+[2018.05.07-11.01.00:191][ 76]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush36.BrushComponent0) Component already registered.
+[2018.05.07-11.01.00:192][ 76]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.CylinderBrush17.BrushComponent0) Component already registered.
+[2018.05.07-11.01.00:192][ 76]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush17.BrushComponent0) Component already registered.
+[2018.05.07-11.01.00:193][ 76]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush138.BrushComponent0) Component already registered.
+[2018.05.07-11.01.00:194][ 76]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.LinearStairBrush.BrushComponent0) Component already registered.
+[2018.05.07-11.01.00:195][ 76]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush149.BrushComponent0) Component already registered.
+[2018.05.07-11.01.00:197][ 76]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush119.BrushComponent0) Component already registered.
+[2018.05.07-11.01.00:198][ 76]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush124.BrushComponent0) Component already registered.
+[2018.05.07-11.01.00:199][ 76]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush107.BrushComponent0) Component already registered.
+[2018.05.07-11.01.00:667][115]Cmd: TRANSACTION UNDO
+[2018.05.07-11.01.00:668][115]LogEditorTransaction: Undo Scale Actors
+[2018.05.07-11.01.00:703][115]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush56.BrushComponent0) Component already registered.
+[2018.05.07-11.01.00:704][115]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush64.BrushComponent0) Component already registered.
+[2018.05.07-11.01.00:704][115]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush46.BrushComponent0) Component already registered.
+[2018.05.07-11.01.00:705][115]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.CylinderBrush12.BrushComponent0) Component already registered.
+[2018.05.07-11.01.00:707][115]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.CylinderBrush3.BrushComponent0) Component already registered.
+[2018.05.07-11.01.00:741][115]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush12.BrushComponent0) Component already registered.
+[2018.05.07-11.01.00:742][115]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush30.BrushComponent0) Component already registered.
+[2018.05.07-11.01.00:744][115]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush130.BrushComponent0) Component already registered.
+[2018.05.07-11.01.00:745][115]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush133_25.BrushComponent0) Component already registered.
+[2018.05.07-11.01.00:745][115]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.LinearStairBrush.BrushComponent0) Component already registered.
+[2018.05.07-11.01.00:746][115]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush149.BrushComponent0) Component already registered.
+[2018.05.07-11.01.00:747][115]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush94.BrushComponent0) Component already registered.
+[2018.05.07-11.01.00:748][115]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.ConeBrush8.BrushComponent0) Component already registered.
+[2018.05.07-11.01.00:749][115]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush119.BrushComponent0) Component already registered.
+[2018.05.07-11.01.00:749][115]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush124.BrushComponent0) Component already registered.
+[2018.05.07-11.01.00:750][115]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush107.BrushComponent0) Component already registered.
+[2018.05.07-11.01.06:118][724]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.07-11.01.41:957][772]Cmd: TRANSACTION UNDO
+[2018.05.07-11.01.41:957][772]LogEditorTransaction: Undo Move Actors
+[2018.05.07-11.01.41:990][772]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush53.BrushComponent0) Component already registered.
+[2018.05.07-11.01.41:991][772]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush65.BrushComponent0) Component already registered.
+[2018.05.07-11.01.41:991][772]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush58.BrushComponent0) Component already registered.
+[2018.05.07-11.01.41:991][772]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush40.BrushComponent0) Component already registered.
+[2018.05.07-11.01.41:993][772]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.CylinderBrush16.BrushComponent0) Component already registered.
+[2018.05.07-11.01.41:993][772]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush72.BrushComponent0) Component already registered.
+[2018.05.07-11.01.42:028][772]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush165.BrushComponent0) Component already registered.
+[2018.05.07-11.01.42:029][772]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush4.BrushComponent0) Component already registered.
+[2018.05.07-11.01.42:029][772]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush27.BrushComponent0) Component already registered.
+[2018.05.07-11.01.42:030][772]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush28.BrushComponent0) Component already registered.
+[2018.05.07-11.01.42:032][772]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush150.BrushComponent0) Component already registered.
+[2018.05.07-11.01.42:033][772]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush133_25.BrushComponent0) Component already registered.
+[2018.05.07-11.01.42:033][772]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.LinearStairBrush2.BrushComponent0) Component already registered.
+[2018.05.07-11.01.42:034][772]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush156.BrushComponent0) Component already registered.
+[2018.05.07-11.01.42:034][772]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush157.BrushComponent0) Component already registered.
+[2018.05.07-11.01.42:035][772]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush93.BrushComponent0) Component already registered.
+[2018.05.07-11.01.42:035][772]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush94.BrushComponent0) Component already registered.
+[2018.05.07-11.01.42:036][772]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush118.BrushComponent0) Component already registered.
+[2018.05.07-11.01.42:037][772]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush127.BrushComponent0) Component already registered.
+[2018.05.07-11.01.42:037][772]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.CylinderBrush21.BrushComponent0) Component already registered.
+[2018.05.07-11.01.42:037][772]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush103.BrushComponent0) Component already registered.
+[2018.05.07-11.01.53:651][  5]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.05.07-11.02.18:904][748]Cmd: DELETE
+[2018.05.07-11.02.18:904][748]Cmd: ACTOR DELETE
+[2018.05.07-11.02.18:929][748]LogEditorActor: Deleted Actor: Brush
+[2018.05.07-11.02.18:929][748]LogEditorActor: Deleted Actor: Brush
+[2018.05.07-11.02.19:162][748]LogEditorActor: Deleted 2 Actors (0.257 secs)
+[2018.05.07-11.02.31:463][ 42]Cmd: TRANSACTION UNDO
+[2018.05.07-11.02.31:463][ 42]LogEditorTransaction: Undo Move Actors
+[2018.05.07-11.02.31:495][ 42]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush62.BrushComponent0) Component already registered.
+[2018.05.07-11.02.31:496][ 42]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush47.BrushComponent0) Component already registered.
+[2018.05.07-11.02.31:497][ 42]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush69.BrushComponent0) Component already registered.
+[2018.05.07-11.02.31:497][ 42]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.CylinderBrush16.BrushComponent0) Component already registered.
+[2018.05.07-11.02.31:498][ 42]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush75.BrushComponent0) Component already registered.
+[2018.05.07-11.02.31:499][ 42]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.ConeBrush7.BrushComponent0) Component already registered.
+[2018.05.07-11.02.31:500][ 42]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush11.BrushComponent0) Component already registered.
+[2018.05.07-11.02.31:534][ 42]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush3.BrushComponent0) Component already registered.
+[2018.05.07-11.02.31:535][ 42]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush37.BrushComponent0) Component already registered.
+[2018.05.07-11.02.31:536][ 42]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush21.BrushComponent0) Component already registered.
+[2018.05.07-11.02.31:537][ 42]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush144_36.BrushComponent0) Component already registered.
+[2018.05.07-11.02.31:537][ 42]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush132.BrushComponent0) Component already registered.
+[2018.05.07-11.02.31:538][ 42]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush111.BrushComponent0) Component already registered.
+[2018.05.07-11.02.31:539][ 42]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush155.BrushComponent0) Component already registered.
+[2018.05.07-11.03.00:613][183]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.05.07-11.03.15:867][848]Cmd: SELECT NONE
+[2018.05.07-11.03.33:506][954]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.07-11.03.33:510][954]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ChurchV1" FILE="C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.05.07-11.03.34:009][954]LogSavePackage: Save=474.22ms
+[2018.05.07-11.03.34:009][954]LogSavePackage: Moving 'C:/Users/i3/Documents/GitHub/BRG_Project/Saved/ChurchV164980AEB4EEED1410C780CA8AD364EC6.tmp' to 'C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap'
+[2018.05.07-11.03.34:016][954]LogSavePackage: Display: Finished SavePackage C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap
+[2018.05.07-11.03.34:035][954]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ChurchV1_BuiltData" FILE="C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset" SILENT=true
+[2018.05.07-11.03.34:047][954]LogSavePackage: Save=9.54ms
+[2018.05.07-11.03.34:047][954]LogSavePackage: Moving 'C:/Users/i3/Documents/GitHub/BRG_Project/Saved/ChurchV1_BuiltData3C088B744BE7DD95BC18AF97AEEF3FF8.tmp' to 'C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset'
+[2018.05.07-11.03.34:049][954]LogSavePackage: Display: Finished SavePackage C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset
+[2018.05.07-11.04.06:207][773]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.07-11.04.06:211][773]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ChurchV1" FILE="C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.05.07-11.04.06:686][773]LogSavePackage: Save=461.32ms
+[2018.05.07-11.04.06:687][773]LogSavePackage: Moving 'C:/Users/i3/Documents/GitHub/BRG_Project/Saved/ChurchV1DD35D6A842D8555C62E8A5B0A0700CE2.tmp' to 'C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap'
+[2018.05.07-11.04.06:690][773]LogSavePackage: Display: Finished SavePackage C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap
+[2018.05.07-11.04.06:703][773]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ChurchV1_BuiltData" FILE="C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset" SILENT=true
+[2018.05.07-11.04.06:716][773]LogSavePackage: Save=9.85ms
+[2018.05.07-11.04.06:716][773]LogSavePackage: Moving 'C:/Users/i3/Documents/GitHub/BRG_Project/Saved/ChurchV1_BuiltData06076DC4469A58DFD80DD4AD47CC1464.tmp' to 'C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset'
+[2018.05.07-11.04.06:718][773]LogSavePackage: Display: Finished SavePackage C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset
+[2018.05.07-11.04.57:839][632]Cmd: TRANSACTION UNDO
+[2018.05.07-11.04.57:839][632]LogEditorTransaction: Undo Scale Actors
+[2018.05.07-11.04.57:874][632]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush58.BrushComponent0) Component already registered.
+[2018.05.07-11.04.57:874][632]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush64.BrushComponent0) Component already registered.
+[2018.05.07-11.04.57:875][632]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush53.BrushComponent0) Component already registered.
+[2018.05.07-11.04.57:875][632]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush48.BrushComponent0) Component already registered.
+[2018.05.07-11.04.57:875][632]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush69.BrushComponent0) Component already registered.
+[2018.05.07-11.04.57:875][632]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.ConeBrush5.BrushComponent0) Component already registered.
+[2018.05.07-11.04.57:876][632]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush79.BrushComponent0) Component already registered.
+[2018.05.07-11.04.57:877][632]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.CylinderBrush13.BrushComponent0) Component already registered.
+[2018.05.07-11.04.57:877][632]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush77.BrushComponent0) Component already registered.
+[2018.05.07-11.04.57:877][632]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.ConeBrush8.BrushComponent0) Component already registered.
+[2018.05.07-11.04.57:878][632]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush6.BrushComponent0) Component already registered.
+[2018.05.07-11.04.57:878][632]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.CylinderBrush3.BrushComponent0) Component already registered.
+[2018.05.07-11.04.57:878][632]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush11.BrushComponent0) Component already registered.
+[2018.05.07-11.04.57:912][632]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush2.BrushComponent0) Component already registered.
+[2018.05.07-11.04.57:913][632]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush25.BrushComponent0) Component already registered.
+[2018.05.07-11.04.57:913][632]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush30.BrushComponent0) Component already registered.
+[2018.05.07-11.04.57:913][632]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush36.BrushComponent0) Component already registered.
+[2018.05.07-11.04.57:914][632]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.CylinderBrush11.BrushComponent0) Component already registered.
+[2018.05.07-11.04.57:914][632]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.CylinderBrush8.BrushComponent0) Component already registered.
+[2018.05.07-11.04.57:915][632]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush149.BrushComponent0) Component already registered.
+[2018.05.07-11.04.57:915][632]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.ChestSkrzynia.BrushComponent0) Component already registered.
+[2018.05.07-11.04.57:916][632]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush134.BrushComponent0) Component already registered.
+[2018.05.07-11.04.57:916][632]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush138.BrushComponent0) Component already registered.
+[2018.05.07-11.04.57:916][632]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush141.BrushComponent0) Component already registered.
+[2018.05.07-11.04.57:916][632]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush165.BrushComponent0) Component already registered.
+[2018.05.07-11.04.57:916][632]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.ConeBrush10.BrushComponent0) Component already registered.
+[2018.05.07-11.04.57:917][632]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush158.BrushComponent0) Component already registered.
+[2018.05.07-11.04.57:917][632]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.CylinderBrush25.BrushComponent0) Component already registered.
+[2018.05.07-11.04.57:918][632]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.LinearStairBrush2.BrushComponent0) Component already registered.
+[2018.05.07-11.04.57:918][632]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush103.BrushComponent0) Component already registered.
+[2018.05.07-11.04.57:919][632]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush83.BrushComponent0) Component already registered.
+[2018.05.07-11.04.57:920][632]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush90.BrushComponent0) Component already registered.
+[2018.05.07-11.04.57:920][632]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush86.BrushComponent0) Component already registered.
+[2018.05.07-11.04.57:920][632]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush130.BrushComponent0) Component already registered.
+[2018.05.07-11.04.57:921][632]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush108.BrushComponent0) Component already registered.
+[2018.05.07-11.04.57:921][632]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush119.BrushComponent0) Component already registered.
+[2018.05.07-11.04.57:921][632]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush115.BrushComponent0) Component already registered.
+[2018.05.07-11.04.58:414][669]Cmd: TRANSACTION UNDO
+[2018.05.07-11.04.58:414][669]LogEditorTransaction: Undo Scale Actors
+[2018.05.07-11.04.58:451][669]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush55.BrushComponent0) Component already registered.
+[2018.05.07-11.04.58:451][669]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush62.BrushComponent0) Component already registered.
+[2018.05.07-11.04.58:451][669]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush65.BrushComponent0) Component already registered.
+[2018.05.07-11.04.58:452][669]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush51.BrushComponent0) Component already registered.
+[2018.05.07-11.04.58:453][669]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.CylinderBrush14.BrushComponent0) Component already registered.
+[2018.05.07-11.04.58:453][669]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.ConeBrush6.BrushComponent0) Component already registered.
+[2018.05.07-11.04.58:453][669]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush80.BrushComponent0) Component already registered.
+[2018.05.07-11.04.58:454][669]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush75.BrushComponent0) Component already registered.
+[2018.05.07-11.04.58:454][669]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush70.BrushComponent0) Component already registered.
+[2018.05.07-11.04.58:455][669]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.CylinderBrush6.BrushComponent0) Component already registered.
+[2018.05.07-11.04.58:456][669]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush9.BrushComponent0) Component already registered.
+[2018.05.07-11.04.58:491][669]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush26_45.BrushComponent0) Component already registered.
+[2018.05.07-11.04.58:491][669]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush38.BrushComponent0) Component already registered.
+[2018.05.07-11.04.58:491][669]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush31.BrushComponent0) Component already registered.
+[2018.05.07-11.04.58:492][669]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush21.BrushComponent0) Component already registered.
+[2018.05.07-11.04.58:493][669]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush154.BrushComponent0) Component already registered.
+[2018.05.07-11.04.58:494][669]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush135.BrushComponent0) Component already registered.
+[2018.05.07-11.04.58:494][669]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush143.BrushComponent0) Component already registered.
+[2018.05.07-11.04.58:494][669]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush139.BrushComponent0) Component already registered.
+[2018.05.07-11.04.58:494][669]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush165.BrushComponent0) Component already registered.
+[2018.05.07-11.04.58:495][669]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.ConeBrush10.BrushComponent0) Component already registered.
+[2018.05.07-11.04.58:495][669]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush158.BrushComponent0) Component already registered.
+[2018.05.07-11.04.58:495][669]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.CylinderBrush25.BrushComponent0) Component already registered.
+[2018.05.07-11.04.58:496][669]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.LinearStairBrush2.BrushComponent0) Component already registered.
+[2018.05.07-11.04.58:496][669]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush93.BrushComponent0) Component already registered.
+[2018.05.07-11.04.58:496][669]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush98.BrushComponent0) Component already registered.
+[2018.05.07-11.04.58:497][669]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush101.BrushComponent0) Component already registered.
+[2018.05.07-11.04.58:497][669]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.CylinderBrush20.BrushComponent0) Component already registered.
+[2018.05.07-11.04.58:497][669]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.CylinderBrush18.BrushComponent0) Component already registered.
+[2018.05.07-11.04.58:498][669]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush124.BrushComponent0) Component already registered.
+[2018.05.07-11.04.58:498][669]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush128.BrushComponent0) Component already registered.
+[2018.05.07-11.04.58:499][669]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush113.BrushComponent0) Component already registered.
+[2018.05.07-11.04.58:499][669]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush106.BrushComponent0) Component already registered.
+[2018.05.07-11.05.00:415][854]Cmd: TRANSACTION UNDO
+[2018.05.07-11.05.00:415][854]LogEditorTransaction: Undo Scale Actors
+[2018.05.07-11.05.00:452][854]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush55.BrushComponent0) Component already registered.
+[2018.05.07-11.05.00:452][854]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush62.BrushComponent0) Component already registered.
+[2018.05.07-11.05.00:453][854]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush65.BrushComponent0) Component already registered.
+[2018.05.07-11.05.00:453][854]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush51.BrushComponent0) Component already registered.
+[2018.05.07-11.05.00:454][854]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.CylinderBrush14.BrushComponent0) Component already registered.
+[2018.05.07-11.05.00:455][854]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.ConeBrush6.BrushComponent0) Component already registered.
+[2018.05.07-11.05.00:455][854]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush80.BrushComponent0) Component already registered.
+[2018.05.07-11.05.00:455][854]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush75.BrushComponent0) Component already registered.
+[2018.05.07-11.05.00:455][854]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush70.BrushComponent0) Component already registered.
+[2018.05.07-11.05.00:457][854]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.CylinderBrush6.BrushComponent0) Component already registered.
+[2018.05.07-11.05.00:457][854]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush9.BrushComponent0) Component already registered.
+[2018.05.07-11.05.00:492][854]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush26_45.BrushComponent0) Component already registered.
+[2018.05.07-11.05.00:492][854]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush38.BrushComponent0) Component already registered.
+[2018.05.07-11.05.00:492][854]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush31.BrushComponent0) Component already registered.
+[2018.05.07-11.05.00:493][854]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush21.BrushComponent0) Component already registered.
+[2018.05.07-11.05.00:494][854]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush154.BrushComponent0) Component already registered.
+[2018.05.07-11.05.00:494][854]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush135.BrushComponent0) Component already registered.
+[2018.05.07-11.05.00:495][854]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush143.BrushComponent0) Component already registered.
+[2018.05.07-11.05.00:495][854]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush139.BrushComponent0) Component already registered.
+[2018.05.07-11.05.00:495][854]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush165.BrushComponent0) Component already registered.
+[2018.05.07-11.05.00:495][854]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.ConeBrush10.BrushComponent0) Component already registered.
+[2018.05.07-11.05.00:496][854]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush158.BrushComponent0) Component already registered.
+[2018.05.07-11.05.00:496][854]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.CylinderBrush25.BrushComponent0) Component already registered.
+[2018.05.07-11.05.00:497][854]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.LinearStairBrush2.BrushComponent0) Component already registered.
+[2018.05.07-11.05.00:497][854]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush93.BrushComponent0) Component already registered.
+[2018.05.07-11.05.00:497][854]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush98.BrushComponent0) Component already registered.
+[2018.05.07-11.05.00:497][854]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush101.BrushComponent0) Component already registered.
+[2018.05.07-11.05.00:498][854]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.CylinderBrush20.BrushComponent0) Component already registered.
+[2018.05.07-11.05.00:498][854]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.CylinderBrush18.BrushComponent0) Component already registered.
+[2018.05.07-11.05.00:499][854]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush124.BrushComponent0) Component already registered.
+[2018.05.07-11.05.00:499][854]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush128.BrushComponent0) Component already registered.
+[2018.05.07-11.05.00:499][854]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush113.BrushComponent0) Component already registered.
+[2018.05.07-11.05.00:500][854]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush106.BrushComponent0) Component already registered.
+[2018.05.07-11.05.00:985][900]Cmd: TRANSACTION UNDO
+[2018.05.07-11.05.00:985][900]LogEditorTransaction: Undo Scale Actors
+[2018.05.07-11.05.01:022][900]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush62.BrushComponent0) Component already registered.
+[2018.05.07-11.05.01:022][900]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush55.BrushComponent0) Component already registered.
+[2018.05.07-11.05.01:023][900]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush42.BrushComponent0) Component already registered.
+[2018.05.07-11.05.01:023][900]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush47.BrushComponent0) Component already registered.
+[2018.05.07-11.05.01:023][900]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush50.BrushComponent0) Component already registered.
+[2018.05.07-11.05.01:023][900]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.ConeBrush6.BrushComponent0) Component already registered.
+[2018.05.07-11.05.01:024][900]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.CylinderBrush14.BrushComponent0) Component already registered.
+[2018.05.07-11.05.01:025][900]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush71.BrushComponent0) Component already registered.
+[2018.05.07-11.05.01:025][900]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush76.BrushComponent0) Component already registered.
+[2018.05.07-11.05.01:025][900]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.ConeBrush.BrushComponent0) Component already registered.
+[2018.05.07-11.05.01:025][900]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.CylinderBrush3.BrushComponent0) Component already registered.
+[2018.05.07-11.05.01:026][900]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush6.BrushComponent0) Component already registered.
+[2018.05.07-11.05.01:061][900]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush.BrushComponent0) Component already registered.
+[2018.05.07-11.05.01:062][900]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush30.BrushComponent0) Component already registered.
+[2018.05.07-11.05.01:062][900]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush25.BrushComponent0) Component already registered.
+[2018.05.07-11.05.01:063][900]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush14.BrushComponent0) Component already registered.
+[2018.05.07-11.05.01:063][900]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush17.BrushComponent0) Component already registered.
+[2018.05.07-11.05.01:063][900]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush20.BrushComponent0) Component already registered.
+[2018.05.07-11.05.01:063][900]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush149.BrushComponent0) Component already registered.
+[2018.05.07-11.05.01:064][900]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.ChestSkrzynia.BrushComponent0) Component already registered.
+[2018.05.07-11.05.01:064][900]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush134.BrushComponent0) Component already registered.
+[2018.05.07-11.05.01:065][900]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush138.BrushComponent0) Component already registered.
+[2018.05.07-11.05.01:065][900]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush141.BrushComponent0) Component already registered.
+[2018.05.07-11.05.01:065][900]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush165.BrushComponent0) Component already registered.
+[2018.05.07-11.05.01:065][900]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.ConeBrush10.BrushComponent0) Component already registered.
+[2018.05.07-11.05.01:066][900]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush158.BrushComponent0) Component already registered.
+[2018.05.07-11.05.01:066][900]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.CylinderBrush25.BrushComponent0) Component already registered.
+[2018.05.07-11.05.01:067][900]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.LinearStairBrush2.BrushComponent0) Component already registered.
+[2018.05.07-11.05.01:067][900]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush98.BrushComponent0) Component already registered.
+[2018.05.07-11.05.01:067][900]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush93.BrushComponent0) Component already registered.
+[2018.05.07-11.05.01:068][900]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.ConeBrush9.BrushComponent0) Component already registered.
+[2018.05.07-11.05.01:068][900]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush85.BrushComponent0) Component already registered.
+[2018.05.07-11.05.01:068][900]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush88.BrushComponent0) Component already registered.
+[2018.05.07-11.05.01:069][900]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush126.BrushComponent0) Component already registered.
+[2018.05.07-11.05.01:069][900]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush122.BrushComponent0) Component already registered.
+[2018.05.07-11.05.01:070][900]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush107.BrushComponent0) Component already registered.
+[2018.05.07-11.05.01:070][900]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush114.BrushComponent0) Component already registered.
+[2018.05.07-11.05.01:070][900]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush117.BrushComponent0) Component already registered.
+[2018.05.07-11.05.03:048][118]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.07-11.05.12:252][107]Cmd: TRANSACTION UNDO
+[2018.05.07-11.05.12:252][107]LogEditorTransaction: Undo Scale Actors
+[2018.05.07-11.05.12:288][107]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush69.BrushComponent0) Component already registered.
+[2018.05.07-11.05.12:288][107]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush64.BrushComponent0) Component already registered.
+[2018.05.07-11.05.12:289][107]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush49.BrushComponent0) Component already registered.
+[2018.05.07-11.05.12:289][107]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush54.BrushComponent0) Component already registered.
+[2018.05.07-11.05.12:290][107]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.ConeBrush8.BrushComponent0) Component already registered.
+[2018.05.07-11.05.12:290][107]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush79.BrushComponent0) Component already registered.
+[2018.05.07-11.05.12:291][107]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush70.BrushComponent0) Component already registered.
+[2018.05.07-11.05.12:291][107]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush78.BrushComponent0) Component already registered.
+[2018.05.07-11.05.12:291][107]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.ConeBrush3.BrushComponent0) Component already registered.
+[2018.05.07-11.05.12:292][107]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush13.BrushComponent0) Component already registered.
+[2018.05.07-11.05.12:292][107]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.CylinderBrush4.BrushComponent0) Component already registered.
+[2018.05.07-11.05.12:327][107]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush5.BrushComponent0) Component already registered.
+[2018.05.07-11.05.12:327][107]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush40.BrushComponent0) Component already registered.
+[2018.05.07-11.05.12:327][107]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush32.BrushComponent0) Component already registered.
+[2018.05.07-11.05.12:328][107]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.CylinderBrush8.BrushComponent0) Component already registered.
+[2018.05.07-11.05.12:328][107]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush19.BrushComponent0) Component already registered.
+[2018.05.07-11.05.12:329][107]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush24.BrushComponent0) Component already registered.
+[2018.05.07-11.05.12:329][107]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.CylinderBrush24.BrushComponent0) Component already registered.
+[2018.05.07-11.05.12:329][107]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush136.BrushComponent0) Component already registered.
+[2018.05.07-11.05.12:330][107]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush141.BrushComponent0) Component already registered.
+[2018.05.07-11.05.12:330][107]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush34_18.BrushComponent0) Component already registered.
+[2018.05.07-11.05.12:331][107]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush161.BrushComponent0) Component already registered.
+[2018.05.07-11.05.12:332][107]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.LinearStairBrush2.BrushComponent0) Component already registered.
+[2018.05.07-11.05.12:332][107]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush97.BrushComponent0) Component already registered.
+[2018.05.07-11.05.12:333][107]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush84.BrushComponent0) Component already registered.
+[2018.05.07-11.05.12:334][107]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush88.BrushComponent0) Component already registered.
+[2018.05.07-11.05.12:334][107]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush125.BrushComponent0) Component already registered.
+[2018.05.07-11.05.12:335][107]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush110.BrushComponent0) Component already registered.
+[2018.05.07-11.05.12:336][107]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush117.BrushComponent0) Component already registered.
+[2018.05.07-11.06.39:623][424]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.07-11.06.40:682][534]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.05.07-11.08.12:575][241]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.07-11.09.09:178][300]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.05.07-11.10.17:369][517]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.07-11.10.17:374][517]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ChurchV1" FILE="C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.05.07-11.10.18:148][517]LogSavePackage: Save=533.32ms
+[2018.05.07-11.10.18:148][517]LogSavePackage: Moving 'C:/Users/i3/Documents/GitHub/BRG_Project/Saved/ChurchV16D85D6224C189A9D69DA67B812389B4B.tmp' to 'C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap'
+[2018.05.07-11.10.18:172][517]LogSavePackage: Display: Finished SavePackage C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap
+[2018.05.07-11.10.18:260][517]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ChurchV1_BuiltData" FILE="C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset" SILENT=true
+[2018.05.07-11.10.18:279][517]LogSavePackage: Save=10.77ms
+[2018.05.07-11.10.18:279][517]LogSavePackage: Moving 'C:/Users/i3/Documents/GitHub/BRG_Project/Saved/ChurchV1_BuiltData832875D0474B4A1F65648688901AB2CB.tmp' to 'C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset'
+[2018.05.07-11.10.18:281][517]LogSavePackage: Display: Finished SavePackage C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset
+[2018.05.07-11.10.42:138][266]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.07-11.10.42:142][266]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ChurchV1" FILE="C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.05.07-11.10.42:664][266]LogSavePackage: Save=505.42ms
+[2018.05.07-11.10.42:664][266]LogSavePackage: Moving 'C:/Users/i3/Documents/GitHub/BRG_Project/Saved/ChurchV15F46FF9F48F224A8A1005CBA48570160.tmp' to 'C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap'
+[2018.05.07-11.10.42:668][266]LogSavePackage: Display: Finished SavePackage C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap
+[2018.05.07-11.10.42:682][266]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ChurchV1_BuiltData" FILE="C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset" SILENT=true
+[2018.05.07-11.10.42:695][266]LogSavePackage: Save=10.18ms
+[2018.05.07-11.10.42:695][266]LogSavePackage: Moving 'C:/Users/i3/Documents/GitHub/BRG_Project/Saved/ChurchV1_BuiltData7EF119654DAAB72230CAA5A1DB0CD17C.tmp' to 'C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset'
+[2018.05.07-11.10.42:697][266]LogSavePackage: Display: Finished SavePackage C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset
+[2018.05.07-11.11.00:313][273]Cmd: DELETE
+[2018.05.07-11.11.00:313][273]Cmd: ACTOR DELETE
+[2018.05.07-11.11.00:331][273]LogEditorActor: Deleted Actor: Brush
+[2018.05.07-11.11.00:598][273]LogEditorActor: Deleted 1 Actors (0.285 secs)
+[2018.05.07-11.11.01:222][340]Cmd: DELETE
+[2018.05.07-11.11.01:222][340]Cmd: ACTOR DELETE
+[2018.05.07-11.11.01:241][340]LogEditorActor: Deleted Actor: Brush
+[2018.05.07-11.11.01:474][340]LogEditorActor: Deleted 1 Actors (0.252 secs)
+[2018.05.07-11.11.11:658][417]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.05.07-11.11.13:451][603]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.07-11.11.13:457][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ChurchV1" FILE="C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.05.07-11.11.13:971][603]LogSavePackage: Save=497.35ms
+[2018.05.07-11.11.13:971][603]LogSavePackage: Moving 'C:/Users/i3/Documents/GitHub/BRG_Project/Saved/ChurchV1830F952748384FEEB50FA99363A1B81A.tmp' to 'C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap'
+[2018.05.07-11.11.13:977][603]LogSavePackage: Display: Finished SavePackage C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap
+[2018.05.07-11.11.13:995][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ChurchV1_BuiltData" FILE="C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset" SILENT=true
+[2018.05.07-11.11.14:009][603]LogSavePackage: Save=10.48ms
+[2018.05.07-11.11.14:009][603]LogSavePackage: Moving 'C:/Users/i3/Documents/GitHub/BRG_Project/Saved/ChurchV1_BuiltData2BE66B434F7D5E0460CAB8A4A7BDA3E1.tmp' to 'C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset'
+[2018.05.07-11.11.14:011][603]LogSavePackage: Display: Finished SavePackage C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset
+[2018.05.07-11.14.14:995][278]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.07-11.14.14:999][278]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ChurchV1" FILE="C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.05.07-11.14.15:501][278]LogSavePackage: Save=484.64ms
+[2018.05.07-11.14.15:501][278]LogSavePackage: Moving 'C:/Users/i3/Documents/GitHub/BRG_Project/Saved/ChurchV18CAFE86040B34955F7E650856218E1E3.tmp' to 'C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap'
+[2018.05.07-11.14.15:507][278]LogSavePackage: Display: Finished SavePackage C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap
+[2018.05.07-11.14.15:551][278]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ChurchV1_BuiltData" FILE="C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset" SILENT=true
+[2018.05.07-11.14.15:563][278]LogSavePackage: Save=9.52ms
+[2018.05.07-11.14.15:564][278]LogSavePackage: Moving 'C:/Users/i3/Documents/GitHub/BRG_Project/Saved/ChurchV1_BuiltData34DAA09C4DFA070F7580809766FE2D70.tmp' to 'C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset'
+[2018.05.07-11.14.15:566][278]LogSavePackage: Display: Finished SavePackage C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset
+[2018.05.07-11.14.27:743][646]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.07-11.14.34:732][419]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.07-11.14.41:317][106]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.07-11.14.41:480][124]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.07-11.14.41:489][124]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.07-11.14.41:490][124]PIE: New page: PIE session: ChurchV1 (7 maj 2018, 15:14:41)
+[2018.05.07-11.14.41:490][124]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ChurchV1
+[2018.05.07-11.14.41:555][124]LogPlayLevel: PIE: StaticDuplicateObject took: (0.065082s)
+[2018.05.07-11.14.41:556][124]LogAIModule: Creating AISystem for world ChurchV1
+[2018.05.07-11.14.41:557][124]LogPlayLevel: PIE: World Init took: (0.001343s)
+[2018.05.07-11.14.41:557][124]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ChurchV1.ChurchV1 to /Game/Maps/UEDPIE_0_ChurchV1.ChurchV1 (0.066739s)
+[2018.05.07-11.14.41:574][124]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.07-11.14.41:587][124]LogInit: FAudioDevice initialized.
+[2018.05.07-11.14.41:625][124]LogLoad: Game class is 'GameModeBase'
+[2018.05.07-11.14.41:636][124]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ChurchV1.ChurchV1 up for play (max tick rate 0) at 2018.05.07-13.14.41
+[2018.05.07-11.14.41:749][124]LogWorld: Bringing up level for play took: 0.121920
+[2018.05.07-11.14.41:751][124]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_ChurchV1 0,691
+[2018.05.07-11.14.48:460][871]LogEditorViewport: Clicking on Actor (LMB): Character (Character)
+[2018.05.07-11.14.49:630][997]Cmd: DELETE
+[2018.05.07-11.14.49:630][997]Cmd: ACTOR DELETE
+[2018.05.07-11.14.49:646][997]LogEditorActor: Deleted Actor: Character
+[2018.05.07-11.14.49:657][997]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2018.05.07-11.18.36:601][ 38]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush153)
+[2018.05.07-11.18.37:113][ 89]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush153)
+[2018.05.07-11.18.37:663][148]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush153)
+[2018.05.07-11.18.39:970][404]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush157)
+[2018.05.07-11.19.35:581][179]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.07-11.19.35:585][179]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ChurchV1" FILE="C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.05.07-11.19.36:123][179]LogSavePackage: Save=511.41ms
+[2018.05.07-11.19.36:123][179]LogSavePackage: Moving 'C:/Users/i3/Documents/GitHub/BRG_Project/Saved/ChurchV15DCCB4B14BC52515E24A11A11527AB78.tmp' to 'C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap'
+[2018.05.07-11.19.36:128][179]LogSavePackage: Display: Finished SavePackage C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap
+[2018.05.07-11.19.36:164][179]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ChurchV1_BuiltData" FILE="C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset" SILENT=true
+[2018.05.07-11.19.36:180][179]LogSavePackage: Save=9.77ms
+[2018.05.07-11.19.36:180][179]LogSavePackage: Moving 'C:/Users/i3/Documents/GitHub/BRG_Project/Saved/ChurchV1_BuiltData34F664D94624CD0C85006E9289E2E3B7.tmp' to 'C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset'
+[2018.05.07-11.19.36:183][179]LogSavePackage: Display: Finished SavePackage C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset
+[2018.05.07-11.23.26:826][285]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.07-11.25.12:064][651]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.07-11.32.27:528][326]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.07-11.32.27:533][326]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ChurchV1" FILE="C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.05.07-11.32.28:236][326]LogSavePackage: Save=553.95ms
+[2018.05.07-11.32.28:236][326]LogSavePackage: Moving 'C:/Users/i3/Documents/GitHub/BRG_Project/Saved/ChurchV1C436055F4FF9C615F454A1882C09DB09.tmp' to 'C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap'
+[2018.05.07-11.32.28:241][326]LogSavePackage: Display: Finished SavePackage C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap
+[2018.05.07-11.32.28:316][326]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ChurchV1_BuiltData" FILE="C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset" SILENT=true
+[2018.05.07-11.32.28:332][326]LogSavePackage: Save=10.07ms
+[2018.05.07-11.32.28:333][326]LogSavePackage: Moving 'C:/Users/i3/Documents/GitHub/BRG_Project/Saved/ChurchV1_BuiltData6C69332A46C48CE64913998AA444B487.tmp' to 'C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset'
+[2018.05.07-11.32.28:335][326]LogSavePackage: Display: Finished SavePackage C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset
+[2018.05.07-11.33.02:923][286]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.07-11.33.02:928][286]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ChurchV1" FILE="C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.05.07-11.33.03:435][286]LogSavePackage: Save=486.99ms
+[2018.05.07-11.33.03:435][286]LogSavePackage: Moving 'C:/Users/i3/Documents/GitHub/BRG_Project/Saved/ChurchV17EAC48B2470E44FBDA4226A41EEB8965.tmp' to 'C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap'
+[2018.05.07-11.33.03:438][286]LogSavePackage: Display: Finished SavePackage C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap
+[2018.05.07-11.33.03:454][286]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ChurchV1_BuiltData" FILE="C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset" SILENT=true
+[2018.05.07-11.33.03:466][286]LogSavePackage: Save=10.17ms
+[2018.05.07-11.33.03:467][286]LogSavePackage: Moving 'C:/Users/i3/Documents/GitHub/BRG_Project/Saved/ChurchV1_BuiltData3FD12D4E4A701201D36A12B990585A28.tmp' to 'C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset'
+[2018.05.07-11.33.03:469][286]LogSavePackage: Display: Finished SavePackage C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset
+[2018.05.07-11.34.21:709][222]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.07-11.34.21:714][222]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ChurchV1" FILE="C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.05.07-11.34.22:213][222]LogSavePackage: Save=485.13ms
+[2018.05.07-11.34.22:213][222]LogSavePackage: Moving 'C:/Users/i3/Documents/GitHub/BRG_Project/Saved/ChurchV103E77A6046CECE858C4B55BDBB50C28E.tmp' to 'C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap'
+[2018.05.07-11.34.22:219][222]LogSavePackage: Display: Finished SavePackage C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap
+[2018.05.07-11.34.22:235][222]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ChurchV1_BuiltData" FILE="C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset" SILENT=true
+[2018.05.07-11.34.22:248][222]LogSavePackage: Save=10.26ms
+[2018.05.07-11.34.22:248][222]LogSavePackage: Moving 'C:/Users/i3/Documents/GitHub/BRG_Project/Saved/ChurchV1_BuiltData17C9270E41C31DBF77B1489971DB59D6.tmp' to 'C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset'
+[2018.05.07-11.34.22:250][222]LogSavePackage: Display: Finished SavePackage C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset
+[2018.05.07-11.34.33:981][549]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.07-11.34.33:986][549]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ChurchV1" FILE="C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.05.07-11.34.34:494][549]LogSavePackage: Save=492.84ms
+[2018.05.07-11.34.34:494][549]LogSavePackage: Moving 'C:/Users/i3/Documents/GitHub/BRG_Project/Saved/ChurchV1C4747D9E4FBC9C31763D9881B72C65C0.tmp' to 'C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap'
+[2018.05.07-11.34.34:497][549]LogSavePackage: Display: Finished SavePackage C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap
+[2018.05.07-11.34.34:510][549]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ChurchV1_BuiltData" FILE="C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset" SILENT=true
+[2018.05.07-11.34.34:523][549]LogSavePackage: Save=9.56ms
+[2018.05.07-11.34.34:523][549]LogSavePackage: Moving 'C:/Users/i3/Documents/GitHub/BRG_Project/Saved/ChurchV1_BuiltDataEE050EC14ACE376B4BE991BC6194D2B7.tmp' to 'C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset'
+[2018.05.07-11.34.34:525][549]LogSavePackage: Display: Finished SavePackage C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset
+[2018.05.07-11.35.15:345][171]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.07-11.35.15:350][171]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ChurchV1" FILE="C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.05.07-11.35.15:860][171]LogSavePackage: Save=494.63ms
+[2018.05.07-11.35.15:861][171]LogSavePackage: Moving 'C:/Users/i3/Documents/GitHub/BRG_Project/Saved/ChurchV139B4684741C4F031C0592C9554B5DB01.tmp' to 'C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap'
+[2018.05.07-11.35.15:865][171]LogSavePackage: Display: Finished SavePackage C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap
+[2018.05.07-11.35.15:881][171]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ChurchV1_BuiltData" FILE="C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset" SILENT=true
+[2018.05.07-11.35.15:893][171]LogSavePackage: Save=9.54ms
+[2018.05.07-11.35.15:894][171]LogSavePackage: Moving 'C:/Users/i3/Documents/GitHub/BRG_Project/Saved/ChurchV1_BuiltDataCEC10C7544532F65199BB29C6B85106D.tmp' to 'C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset'
+[2018.05.07-11.35.15:895][171]LogSavePackage: Display: Finished SavePackage C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset
+[2018.05.07-11.36.52:656][201]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.07-11.37.12:034][336]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.07-11.37.13:164][453]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.07-11.37.36:091][ 34]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.07-11.37.36:527][ 86]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.07-11.37.36:543][ 86]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.07-11.37.36:544][ 86]PIE: New page: PIE session: ChurchV1 (7 maj 2018, 15:37:36)
+[2018.05.07-11.37.36:544][ 86]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ChurchV1
+[2018.05.07-11.37.36:615][ 86]LogPlayLevel: PIE: StaticDuplicateObject took: (0.071517s)
+[2018.05.07-11.37.36:616][ 86]LogAIModule: Creating AISystem for world ChurchV1
+[2018.05.07-11.37.36:617][ 86]LogPlayLevel: PIE: World Init took: (0.001841s)
+[2018.05.07-11.37.36:617][ 86]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ChurchV1.ChurchV1 to /Game/Maps/UEDPIE_0_ChurchV1.ChurchV1 (0.073808s)
+[2018.05.07-11.37.36:638][ 86]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.07-11.37.36:651][ 86]LogInit: FAudioDevice initialized.
+[2018.05.07-11.37.36:681][ 86]LogLoad: Game class is 'GameModeBase'
+[2018.05.07-11.37.36:686][ 86]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ChurchV1.ChurchV1 up for play (max tick rate 0) at 2018.05.07-13.37.36
+[2018.05.07-11.37.36:686][ 86]LogWorld: Bringing up level for play took: 0.004282
+[2018.05.07-11.37.36:688][ 86]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_ChurchV1 -0,372
+[2018.05.07-11.38.46:980][486]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.07-11.38.46:985][486]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ChurchV1" FILE="C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.05.07-11.38.47:492][486]LogSavePackage: Save=488.29ms
+[2018.05.07-11.38.47:492][486]LogSavePackage: Moving 'C:/Users/i3/Documents/GitHub/BRG_Project/Saved/ChurchV12FBA338D42BB1082F4A2D7AE495AC10D.tmp' to 'C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap'
+[2018.05.07-11.38.47:510][486]LogSavePackage: Display: Finished SavePackage C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap
+[2018.05.07-11.38.47:529][486]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ChurchV1_BuiltData" FILE="C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset" SILENT=true
+[2018.05.07-11.38.47:546][486]LogSavePackage: Save=10.05ms
+[2018.05.07-11.38.47:546][486]LogSavePackage: Moving 'C:/Users/i3/Documents/GitHub/BRG_Project/Saved/ChurchV1_BuiltData7CA8553E4FE51369F28FAF9F01B0A812.tmp' to 'C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset'
+[2018.05.07-11.38.47:548][486]LogSavePackage: Display: Finished SavePackage C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset
+[2018.05.07-11.45.00:827][553]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.07-11.46.10:407][825]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.07-11.46.10:411][825]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ChurchV1" FILE="C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.05.07-11.46.10:919][825]LogSavePackage: Save=487.63ms
+[2018.05.07-11.46.10:919][825]LogSavePackage: Moving 'C:/Users/i3/Documents/GitHub/BRG_Project/Saved/ChurchV1990484F34F13386B7D368A935E15CF53.tmp' to 'C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap'
+[2018.05.07-11.46.10:929][825]LogSavePackage: Display: Finished SavePackage C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap
+[2018.05.07-11.46.10:988][825]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ChurchV1_BuiltData" FILE="C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset" SILENT=true
+[2018.05.07-11.46.11:012][825]LogSavePackage: Save=11.60ms
+[2018.05.07-11.46.11:012][825]LogSavePackage: Moving 'C:/Users/i3/Documents/GitHub/BRG_Project/Saved/ChurchV1_BuiltDataC2C783B44BE4D5BFB3892B9F52AADDE9.tmp' to 'C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset'
+[2018.05.07-11.46.11:014][825]LogSavePackage: Display: Finished SavePackage C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset
+[2018.05.07-11.46.13:166][ 66]LogSlate: Window 'BRG_Project - Unreal Editor' being destroyed
+[2018.05.07-11.46.13:462][ 67]Cmd: QUIT_EDITOR
+[2018.05.07-11.46.14:402][ 67]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.05.07-11.46.14:416][ 67]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.05.07-11.46.14:417][ 67]LogExit: Preparing to exit.
+[2018.05.07-11.46.14:951][ 67]LogExit: Editor shut down
+[2018.05.07-11.46.14:977][ 67]LogExit: Transaction tracking system shut down
+[2018.05.07-11.46.15:125][ 67]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.05.07-11.46.15:125][ 67]LogDirectoryWatcher: A directory notification for 'C:/Users/i3/Documents/GitHub/BRG_Project/Content/' was aborted.
+[2018.05.07-11.46.15:125][ 67]LogDirectoryWatcher: A directory notification for '../../Plugins/2D/Paper2D/Content/' was aborted.
+[2018.05.07-11.46.15:126][ 67]LogDirectoryWatcher: A directory notification for '../../Plugins/Enterprise/DatasmithContent/Content/' was aborted.
+[2018.05.07-11.46.15:126][ 67]LogDirectoryWatcher: A directory notification for '../../Plugins/Media/MediaCompositing/Content/' was aborted.
+[2018.05.07-11.46.15:126][ 67]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2018.05.07-11.46.15:126][ 67]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.05.07-11.46.15:126][ 67]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.05.07-11.46.15:227][ 67]LogExit: Object subsystem successfully closed.
+[2018.05.07-11.46.15:244][ 67]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.05.07-11.46.15:249][ 67]LogD3D11RHI: Shutdown
+[2018.05.07-11.46.15:249][ 67]LogD3D11RHI: CleanupD3DDevice
+[2018.05.07-11.46.15:255][ 67]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.05.07-11.46.15:268][ 67]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (580)
+[2018.05.07-11.46.15:268][ 67]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (578)
+[2018.05.07-11.46.15:269][ 67]LogModuleManager: Shutting down and abandoning module DesktopPlatform (576)
+[2018.05.07-11.46.15:269][ 67]LogModuleManager: Shutting down and abandoning module SceneOutliner (574)
+[2018.05.07-11.46.15:269][ 67]LogModuleManager: Shutting down and abandoning module AddContentDialog (572)
+[2018.05.07-11.46.15:269][ 67]LogDirectoryWatcher: A directory notification for 'D:/Programy/UNREAL ENIGNE/UE_4.19/FeaturePacks/' was aborted.
+[2018.05.07-11.46.15:276][ 67]LogModuleManager: Shutting down and abandoning module WidgetCarousel (571)
+[2018.05.07-11.46.15:276][ 67]LogModuleManager: Shutting down and abandoning module EditorWidgets (568)
+[2018.05.07-11.46.15:276][ 67]LogModuleManager: Shutting down and abandoning module CollectionManager (566)
+[2018.05.07-11.46.15:276][ 67]LogDirectoryWatcher: A directory notification for 'C:/Users/i3/Documents/GitHub/BRG_Project/Content/Collections/' was aborted.
+[2018.05.07-11.46.15:276][ 67]LogDirectoryWatcher: A directory notification for 'C:/Users/i3/Documents/GitHub/BRG_Project/Content/Developers/i3/Collections/' was aborted.
+[2018.05.07-11.46.15:276][ 67]LogDirectoryWatcher: A directory notification for 'C:/Users/i3/Documents/GitHub/BRG_Project/Saved/Collections/' was aborted.
+[2018.05.07-11.46.15:276][ 67]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (564)
+[2018.05.07-11.46.15:276][ 67]LogModuleManager: Shutting down and abandoning module StatsViewer (562)
+[2018.05.07-11.46.15:276][ 67]LogModuleManager: Shutting down and abandoning module FoliageEdit (560)
+[2018.05.07-11.46.15:276][ 67]LogModuleManager: Shutting down and abandoning module LandscapeEditor (558)
+[2018.05.07-11.46.15:276][ 67]LogModuleManager: Shutting down and abandoning module MeshPaintMode (556)
+[2018.05.07-11.46.15:276][ 67]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (554)
+[2018.05.07-11.46.15:276][ 67]LogModuleManager: Shutting down and abandoning module ActorPickerMode (552)
+[2018.05.07-11.46.15:276][ 67]LogModuleManager: Shutting down and abandoning module GeometryMode (550)
+[2018.05.07-11.46.15:276][ 67]LogModuleManager: Shutting down and abandoning module TextureAlignMode (548)
+[2018.05.07-11.46.15:276][ 67]LogModuleManager: Shutting down and abandoning module BspMode (546)
+[2018.05.07-11.46.15:276][ 67]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (544)
+[2018.05.07-11.46.15:276][ 67]LogModuleManager: Shutting down and abandoning module HardwareSurvey (542)
+[2018.05.07-11.46.15:277][ 67]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (540)
+[2018.05.07-11.46.15:277][ 67]LogModuleManager: Shutting down and abandoning module AutomationWorker (538)
+[2018.05.07-11.46.15:277][ 67]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (536)
+[2018.05.07-11.46.15:277][ 67]LogModuleManager: Shutting down and abandoning module SequenceRecorder (535)
+[2018.05.07-11.46.15:277][ 67]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (532)
+[2018.05.07-11.46.15:277][ 67]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (530)
+[2018.05.07-11.46.15:277][ 67]LogModuleManager: Shutting down and abandoning module PlacementMode (529)
+[2018.05.07-11.46.15:277][ 67]LogModuleManager: Shutting down and abandoning module MaterialEditor (528)
+[2018.05.07-11.46.15:277][ 67]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (524)
+[2018.05.07-11.46.15:277][ 67]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (522)
+[2018.05.07-11.46.15:277][ 67]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (520)
+[2018.05.07-11.46.15:277][ 67]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (518)
+[2018.05.07-11.46.15:277][ 67]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (516)
+[2018.05.07-11.46.15:277][ 67]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (514)
+[2018.05.07-11.46.15:277][ 67]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (512)
+[2018.05.07-11.46.15:277][ 67]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (510)
+[2018.05.07-11.46.15:277][ 67]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (508)
+[2018.05.07-11.46.15:277][ 67]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (506)
+[2018.05.07-11.46.15:277][ 67]LogModuleManager: Shutting down and abandoning module CharacterAI (504)
+[2018.05.07-11.46.15:277][ 67]LogModuleManager: Shutting down and abandoning module SmartSnapping (502)
+[2018.05.07-11.46.15:277][ 67]LogModuleManager: Shutting down and abandoning module SessionServices (500)
+[2018.05.07-11.46.15:277][ 67]LogModuleManager: Shutting down and abandoning module ViewportSnapping (498)
+[2018.05.07-11.46.15:278][ 67]LogModuleManager: Shutting down and abandoning module ViewportInteraction (496)
+[2018.05.07-11.46.15:278][ 67]LogModuleManager: Shutting down and abandoning module ClothPainter (494)
+[2018.05.07-11.46.15:278][ 67]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (493)
+[2018.05.07-11.46.15:278][ 67]LogModuleManager: Shutting down and abandoning module LogVisualizer (490)
+[2018.05.07-11.46.15:278][ 67]LogModuleManager: Shutting down and abandoning module IntroTutorials (488)
+[2018.05.07-11.46.15:278][ 67]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (487)
+[2018.05.07-11.46.15:278][ 67]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (484)
+[2018.05.07-11.46.15:278][ 67]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (482)
+[2018.05.07-11.46.15:278][ 67]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (480)
+[2018.05.07-11.46.15:278][ 67]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (479)
+[2018.05.07-11.46.15:442][ 67]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (476)
+[2018.05.07-11.46.15:442][ 67]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (474)
+[2018.05.07-11.46.15:442][ 67]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (472)
+[2018.05.07-11.46.15:442][ 67]LogModuleManager: Shutting down and abandoning module InputBindingEditor (470)
+[2018.05.07-11.46.15:442][ 67]LogModuleManager: Shutting down and abandoning module MergeActors (468)
+[2018.05.07-11.46.15:442][ 67]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (466)
+[2018.05.07-11.46.15:442][ 67]LogModuleManager: Shutting down and abandoning module LocalizationService (465)
+[2018.05.07-11.46.15:442][ 67]LogModuleManager: Shutting down and abandoning module HardwareTargeting (462)
+[2018.05.07-11.46.15:442][ 67]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (460)
+[2018.05.07-11.46.15:442][ 67]LogModuleManager: Shutting down and abandoning module UndoHistory (458)
+[2018.05.07-11.46.15:442][ 67]LogModuleManager: Shutting down and abandoning module XmlParser (456)
+[2018.05.07-11.46.15:442][ 67]LogModuleManager: Shutting down and abandoning module Blutility (454)
+[2018.05.07-11.46.15:442][ 67]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (452)
+[2018.05.07-11.46.15:442][ 67]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (451)
+[2018.05.07-11.46.15:443][ 67]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (448)
+[2018.05.07-11.46.15:443][ 67]LogModuleManager: Shutting down and abandoning module SettingsEditor (446)
+[2018.05.07-11.46.15:443][ 67]LogModuleManager: Shutting down and abandoning module ProjectLauncher (444)
+[2018.05.07-11.46.15:443][ 67]LogModuleManager: Shutting down and abandoning module SessionFrontend (442)
+[2018.05.07-11.46.15:443][ 67]LogModuleManager: Shutting down and abandoning module ProfilerClient (440)
+[2018.05.07-11.46.15:443][ 67]LogModuleManager: Shutting down and abandoning module DeviceManager (438)
+[2018.05.07-11.46.15:443][ 67]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (437)
+[2018.05.07-11.46.15:495][ 67]LogModuleManager: Shutting down and abandoning module AutomationController (434)
+[2018.05.07-11.46.15:495][ 67]LogModuleManager: Shutting down and abandoning module AutomationWindow (432)
+[2018.05.07-11.46.15:495][ 67]LogModuleManager: Shutting down and abandoning module Layers (430)
+[2018.05.07-11.46.15:495][ 67]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (428)
+[2018.05.07-11.46.15:495][ 67]LogModuleManager: Shutting down and abandoning module DetailCustomizations (426)
+[2018.05.07-11.46.15:495][ 67]LogModuleManager: Shutting down and abandoning module PackagesDialog (424)
+[2018.05.07-11.46.15:495][ 67]LogModuleManager: Shutting down and abandoning module Persona (422)
+[2018.05.07-11.46.15:495][ 67]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (421)
+[2018.05.07-11.46.15:495][ 67]LogModuleManager: Shutting down and abandoning module AnimGraph (419)
+[2018.05.07-11.46.15:495][ 67]LogModuleManager: Shutting down and abandoning module Kismet (416)
+[2018.05.07-11.46.15:496][ 67]LogModuleManager: Shutting down and abandoning module GraphEditor (414)
+[2018.05.07-11.46.15:496][ 67]LogModuleManager: Shutting down and abandoning module ClassViewer (412)
+[2018.05.07-11.46.15:496][ 67]LogModuleManager: Shutting down and abandoning module Toolbox (410)
+[2018.05.07-11.46.15:496][ 67]LogModuleManager: Shutting down and abandoning module ModuleUI (408)
+[2018.05.07-11.46.15:496][ 67]LogModuleManager: Shutting down and abandoning module MovieSceneTools (406)
+[2018.05.07-11.46.15:496][ 67]LogModuleManager: Shutting down and abandoning module OutputLog (404)
+[2018.05.07-11.46.15:496][ 67]LogModuleManager: Shutting down and abandoning module GammaUI (402)
+[2018.05.07-11.46.15:496][ 67]LogModuleManager: Shutting down and abandoning module Documentation (400)
+[2018.05.07-11.46.15:496][ 67]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (398)
+[2018.05.07-11.46.15:496][ 67]LogModuleManager: Shutting down and abandoning module MovieScene (396)
+[2018.05.07-11.46.15:496][ 67]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (394)
+[2018.05.07-11.46.15:496][ 67]LogModuleManager: Shutting down and abandoning module LauncherPlatform (392)
+[2018.05.07-11.46.15:496][ 67]LogModuleManager: Shutting down and abandoning module AnalyticsET (390)
+[2018.05.07-11.46.15:496][ 67]LogModuleManager: Shutting down and abandoning module PortalServices (388)
+[2018.05.07-11.46.15:496][ 67]LogModuleManager: Shutting down and abandoning module PortalRpc (386)
+[2018.05.07-11.46.15:496][ 67]LogModuleManager: Shutting down and abandoning module MessagingRpc (384)
+[2018.05.07-11.46.15:496][ 67]LogModuleManager: Shutting down and abandoning module AIModule (382)
+[2018.05.07-11.46.15:496][ 67]LogModuleManager: Shutting down and abandoning module GameplayDebugger (381)
+[2018.05.07-11.46.15:496][ 67]LogModuleManager: Shutting down and abandoning module AITestSuite (379)
+[2018.05.07-11.46.15:496][ 67]LogModuleManager: Shutting down and abandoning module ProfilerService (376)
+[2018.05.07-11.46.15:531][ 67]LogModuleManager: Shutting down and abandoning module TaskGraph (374)
+[2018.05.07-11.46.15:531][ 67]LogModuleManager: Shutting down and abandoning module SteamVRController (372)
+[2018.05.07-11.46.15:531][ 67]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (370)
+[2018.05.07-11.46.15:531][ 67]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (368)
+[2018.05.07-11.46.15:531][ 67]LogModuleManager: Shutting down and abandoning module OculusInput (366)
+[2018.05.07-11.46.15:531][ 67]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (364)
+[2018.05.07-11.46.15:531][ 67]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (362)
+[2018.05.07-11.46.15:531][ 67]LogModuleManager: Shutting down and abandoning module CableComponent (360)
+[2018.05.07-11.46.15:531][ 67]LogModuleManager: Shutting down and abandoning module AudioCapture (358)
+[2018.05.07-11.46.15:531][ 67]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (356)
+[2018.05.07-11.46.15:531][ 67]LogModuleManager: Shutting down and abandoning module AndroidPermission (354)
+[2018.05.07-11.46.15:531][ 67]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (350)
+[2018.05.07-11.46.15:531][ 67]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (348)
+[2018.05.07-11.46.15:532][ 67]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (346)
+[2018.05.07-11.46.15:532][ 67]LogModuleManager: Shutting down and abandoning module MediaCompositing (344)
+[2018.05.07-11.46.15:532][ 67]LogModuleManager: Shutting down and abandoning module LinearTimecode (342)
+[2018.05.07-11.46.15:532][ 67]LogModuleManager: Shutting down and abandoning module ImgMedia (340)
+[2018.05.07-11.46.15:535][ 67]LogModuleManager: Shutting down and abandoning module HTML5Networking (338)
+[2018.05.07-11.46.15:535][ 67]LogModuleManager: Shutting down and abandoning module AlembicImporter (336)
+[2018.05.07-11.46.15:535][ 67]LogModuleManager: Shutting down and abandoning module AlembicLibrary (335)
+[2018.05.07-11.46.15:535][ 67]LogModuleManager: Shutting down and abandoning module GeometryCache (334)
+[2018.05.07-11.46.15:535][ 67]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (333)
+[2018.05.07-11.46.15:535][ 67]LogModuleManager: Shutting down and abandoning module DatasmithContent (328)
+[2018.05.07-11.46.15:535][ 67]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (326)
+[2018.05.07-11.46.15:535][ 67]LogModuleManager: Shutting down and abandoning module PluginBrowser (324)
+[2018.05.07-11.46.15:535][ 67]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (322)
+[2018.05.07-11.46.15:535][ 67]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (320)
+[2018.05.07-11.46.15:535][ 67]LogModuleManager: Shutting down and abandoning module CryptoKeys (318)
+[2018.05.07-11.46.15:535][ 67]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (316)
+[2018.05.07-11.46.15:535][ 67]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (314)
+[2018.05.07-11.46.15:535][ 67]LogModuleManager: Shutting down and abandoning module UObjectPlugin (312)
+[2018.05.07-11.46.15:536][ 67]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (310)
+[2018.05.07-11.46.15:536][ 67]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (308)
+[2018.05.07-11.46.15:536][ 67]LogModuleManager: Shutting down and abandoning module GitSourceControl (306)
+[2018.05.07-11.46.15:536][ 67]LogModuleManager: Shutting down and abandoning module SourceControl (305)
+[2018.05.07-11.46.15:536][ 67]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (302)
+[2018.05.07-11.46.15:536][ 67]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (300)
+[2018.05.07-11.46.15:536][ 67]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (298)
+[2018.05.07-11.46.15:536][ 67]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (296)
+[2018.05.07-11.46.15:536][ 67]LogModuleManager: Shutting down and abandoning module Paper2DEditor (294)
+[2018.05.07-11.46.15:536][ 67]LogModuleManager: Shutting down and abandoning module MeshPaint (293)
+[2018.05.07-11.46.15:536][ 67]LogModuleManager: Shutting down and abandoning module BRG_Project (290)
+[2018.05.07-11.46.15:536][ 67]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (288)
+[2018.05.07-11.46.15:536][ 67]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (286)
+[2018.05.07-11.46.15:536][ 67]LogModuleManager: Shutting down and abandoning module PhysXVehicles (284)
+[2018.05.07-11.46.15:536][ 67]LogModuleManager: Shutting down and abandoning module OculusEditor (282)
+[2018.05.07-11.46.15:536][ 67]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (280)
+[2018.05.07-11.46.15:536][ 67]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (278)
+[2018.05.07-11.46.15:536][ 67]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (276)
+[2018.05.07-11.46.15:536][ 67]LogModuleManager: Shutting down and abandoning module ActorSequence (274)
+[2018.05.07-11.46.15:536][ 67]LogModuleManager: Shutting down and abandoning module UdpMessaging (272)
+[2018.05.07-11.46.15:637][ 67]LogModuleManager: Shutting down and abandoning module TcpMessaging (270)
+[2018.05.07-11.46.15:738][ 67]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (268)
+[2018.05.07-11.46.15:738][ 67]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (266)
+[2018.05.07-11.46.15:738][ 67]LogModuleManager: Shutting down and abandoning module FacialAnimation (264)
+[2018.05.07-11.46.15:738][ 67]LogModuleManager: Shutting down and abandoning module DataValidation (262)
+[2018.05.07-11.46.15:738][ 67]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (260)
+[2018.05.07-11.46.15:739][ 67]LogModuleManager: Shutting down and abandoning module LevelEditor (259)
+[2018.05.07-11.46.15:740][ 67]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (258)
+[2018.05.07-11.46.15:740][ 67]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (256)
+[2018.05.07-11.46.15:741][ 67]LogModuleManager: Shutting down and abandoning module MainFrame (254)
+[2018.05.07-11.46.15:741][ 67]LogModuleManager: Shutting down and abandoning module HotReload (253)
+[2018.05.07-11.46.15:741][ 67]LogDirectoryWatcher: A directory notification for 'C:/Users/i3/Documents/GitHub/BRG_Project/Binaries/Win64' was aborted.
+[2018.05.07-11.46.15:741][ 67]LogModuleManager: Shutting down and abandoning module ContentBrowser (249)
+[2018.05.07-11.46.15:743][ 67]LogModuleManager: Shutting down and abandoning module TreeMap (247)
+[2018.05.07-11.46.15:743][ 67]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (244)
+[2018.05.07-11.46.15:743][ 67]LogModuleManager: Shutting down and abandoning module LiveLinkEditor (242)
+[2018.05.07-11.46.15:743][ 67]LogModuleManager: Shutting down and abandoning module LiveLink (240)
+[2018.05.07-11.46.16:532][ 67]LogModuleManager: Shutting down and abandoning module Paper2D (238)
+[2018.05.07-11.46.16:532][ 67]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (236)
+[2018.05.07-11.46.16:532][ 67]LogModuleManager: Shutting down and abandoning module WmfMedia (234)
+[2018.05.07-11.46.16:534][ 67]LogModuleManager: Shutting down and abandoning module Media (233)
+[2018.05.07-11.46.16:540][ 67]LogModuleManager: Shutting down and abandoning module PacketHandler (230)
+[2018.05.07-11.46.16:540][ 67]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (228)
+[2018.05.07-11.46.16:540][ 67]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (226)
+[2018.05.07-11.46.16:540][ 67]LogModuleManager: Shutting down and abandoning module MediaAssets (224)
+[2018.05.07-11.46.16:540][ 67]LogModuleManager: Shutting down and abandoning module Overlay (222)
+[2018.05.07-11.46.16:540][ 67]LogModuleManager: Shutting down and abandoning module OverlayEditor (221)
+[2018.05.07-11.46.16:540][ 67]LogModuleManager: Shutting down and abandoning module VREditor (218)
+[2018.05.07-11.46.16:540][ 67]LogModuleManager: Shutting down and abandoning module StringTableEditor (216)
+[2018.05.07-11.46.16:540][ 67]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (214)
+[2018.05.07-11.46.16:540][ 67]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (212)
+[2018.05.07-11.46.16:540][ 67]LogModuleManager: Shutting down and abandoning module FunctionalTesting (210)
+[2018.05.07-11.46.16:540][ 67]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (208)
+[2018.05.07-11.46.16:540][ 67]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (207)
+[2018.05.07-11.46.16:540][ 67]LogModuleManager: Shutting down and abandoning module UMG (204)
+[2018.05.07-11.46.16:540][ 67]LogModuleManager: Shutting down and abandoning module UMGEditor (203)
+[2018.05.07-11.46.16:541][ 67]LogModuleManager: Shutting down and abandoning module Sequencer (202)
+[2018.05.07-11.46.16:541][ 67]LogModuleManager: Shutting down and abandoning module MessageLog (199)
+[2018.05.07-11.46.16:541][ 67]LogModuleManager: Shutting down and abandoning module SlateReflector (194)
+[2018.05.07-11.46.16:541][ 67]LogModuleManager: Shutting down and abandoning module Slate (192)
+[2018.05.07-11.46.16:541][ 67]LogModuleManager: Shutting down and abandoning module EditorStyle (190)
+[2018.05.07-11.46.16:543][ 67]LogModuleManager: Shutting down and abandoning module MRMesh (188)
+[2018.05.07-11.46.16:543][ 67]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (186)
+[2018.05.07-11.46.16:543][ 67]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (184)
+[2018.05.07-11.46.16:543][ 67]LogModuleManager: Shutting down and abandoning module XAudio2 (182)
+[2018.05.07-11.46.16:543][ 67]LogModuleManager: Shutting down and abandoning module Networking (180)
+[2018.05.07-11.46.16:543][ 67]LogModuleManager: Shutting down and abandoning module Core (178)
+[2018.05.07-11.46.16:543][ 67]LogModuleManager: Shutting down and abandoning module LevelSequence (176)
+[2018.05.07-11.46.16:543][ 67]LogModuleManager: Shutting down and abandoning module KismetCompiler (174)
+[2018.05.07-11.46.16:543][ 67]LogModuleManager: Shutting down and abandoning module MeshUtilities (172)
+[2018.05.07-11.46.16:543][ 67]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (171)
+[2018.05.07-11.46.16:543][ 67]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (170)
+[2018.05.07-11.46.16:543][ 67]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (169)
+[2018.05.07-11.46.16:543][ 67]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (167)
+[2018.05.07-11.46.16:543][ 67]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (165)
+[2018.05.07-11.46.16:543][ 67]LogModuleManager: Shutting down and abandoning module MaterialBaking (161)
+[2018.05.07-11.46.16:543][ 67]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (157)
+[2018.05.07-11.46.16:550][ 67]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
+[2018.05.07-11.46.16:584][ 67]LogDerivedDataCache: Shutdown
+[2018.05.07-11.46.16:584][ 67]LogModuleManager: Shutting down and abandoning module XGEController (152)
+[2018.05.07-11.46.16:584][ 67]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
+[2018.05.07-11.46.16:585][ 67]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
+[2018.05.07-11.46.16:586][ 67]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
+[2018.05.07-11.46.16:586][ 67]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
+[2018.05.07-11.46.16:586][ 67]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
+[2018.05.07-11.46.16:586][ 67]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
+[2018.05.07-11.46.16:586][ 67]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
+[2018.05.07-11.46.16:586][ 67]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
+[2018.05.07-11.46.16:587][ 67]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
+[2018.05.07-11.46.16:587][ 67]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
+[2018.05.07-11.46.16:587][ 67]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
+[2018.05.07-11.46.16:587][ 67]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
+[2018.05.07-11.46.16:587][ 67]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
+[2018.05.07-11.46.16:587][ 67]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
+[2018.05.07-11.46.16:587][ 67]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
+[2018.05.07-11.46.16:587][ 67]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
+[2018.05.07-11.46.16:587][ 67]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (119)
+[2018.05.07-11.46.16:587][ 67]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (117)
+[2018.05.07-11.46.16:587][ 67]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (115)
+[2018.05.07-11.46.16:587][ 67]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (113)
+[2018.05.07-11.46.16:587][ 67]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (111)
+[2018.05.07-11.46.16:587][ 67]LogModuleManager: Shutting down and abandoning module Messaging (109)
+[2018.05.07-11.46.16:587][ 67]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (107)
+[2018.05.07-11.46.16:587][ 67]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (105)
+[2018.05.07-11.46.16:587][ 67]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (103)
+[2018.05.07-11.46.16:587][ 67]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (101)
+[2018.05.07-11.46.16:587][ 67]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (99)
+[2018.05.07-11.46.16:587][ 67]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (97)
+[2018.05.07-11.46.16:588][ 67]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (95)
+[2018.05.07-11.46.16:588][ 67]LogModuleManager: Shutting down and abandoning module Android_ETC1aTargetPlatform (93)
+[2018.05.07-11.46.16:588][ 67]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (91)
+[2018.05.07-11.46.16:588][ 67]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (89)
+[2018.05.07-11.46.16:588][ 67]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (87)
+[2018.05.07-11.46.16:588][ 67]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (85)
+[2018.05.07-11.46.16:588][ 67]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (83)
+[2018.05.07-11.46.16:588][ 67]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (81)
+[2018.05.07-11.46.16:588][ 67]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (79)
+[2018.05.07-11.46.16:588][ 67]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (77)
+[2018.05.07-11.46.16:588][ 67]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (75)
+[2018.05.07-11.46.16:588][ 67]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (73)
+[2018.05.07-11.46.16:588][ 67]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (71)
+[2018.05.07-11.46.16:588][ 67]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (69)
+[2018.05.07-11.46.16:588][ 67]LogModuleManager: Shutting down and abandoning module InputCore (66)
+[2018.05.07-11.46.16:588][ 67]LogModuleManager: Shutting down and abandoning module Settings (64)
+[2018.05.07-11.46.16:588][ 67]LogModuleManager: Shutting down and abandoning module PhysXCooking (62)
+[2018.05.07-11.46.16:588][ 67]LogModuleManager: Shutting down and abandoning module SteamVR (60)
+[2018.05.07-11.46.16:588][ 67]LogModuleManager: Shutting down and abandoning module OculusHMD (58)
+[2018.05.07-11.46.16:588][ 67]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (56)
+[2018.05.07-11.46.16:588][ 67]LogModuleManager: Shutting down and abandoning module AppleARKit (54)
+[2018.05.07-11.46.16:588][ 67]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2018.05.07-11.46.16:588][ 67]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.05.07-11.46.16:588][ 67]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.05.07-11.46.16:588][ 67]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.05.07-11.46.16:588][ 67]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.05.07-11.46.16:588][ 67]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.05.07-11.46.16:588][ 67]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B82327231-4604-470F-D2D8-218F75EEAD07%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.19.1-3989454%2B%2B%2BUE4%2BRelease-4.19&UserID=83ec6dfe4d14a558569f70b910472f93%7C1394d9055a7646ebb0f210a73749825d%7C6edad42d-71e3-453f-8545-5e42ef402217&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.05.07-11.46.16:623][ 67]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.05.07-11.46.16:624][ 67]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.05.07-11.46.16:625][ 67]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.05.07-11.46.16:625][ 67]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.05.07-11.46.16:625][ 67]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.05.07-11.46.16:625][ 67]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.05.07-11.46.16:625][ 67]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.05.07-11.46.16:625][ 67]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.05.07-11.46.16:628][ 67]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.05.07-11.46.16:628][ 67]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.05.07-11.46.16:628][ 67]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.05.07-11.46.16:628][ 67]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.05.07-11.46.16:628][ 67]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.05.07-11.46.16:628][ 67]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.05.07-11.46.16:628][ 67]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.05.07-11.46.16:628][ 67]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.05.07-11.46.16:628][ 67]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.05.07-11.46.16:628][ 67]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.05.07-11.46.16:628][ 67]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.05.07-11.46.16:631][ 67]LogExit: Exiting.
+[2018.05.07-11.46.16:641][ 67]Log file closed, 05/07/18 13:46:16

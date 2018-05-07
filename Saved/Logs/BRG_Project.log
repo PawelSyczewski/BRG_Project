@@ -1,4 +1,4 @@
-﻿Log file open, 05/07/18 11:31:13
+﻿Log file open, 05/07/18 18:36:27
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +7,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: BRG_Project
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-344900628) SRandInit(-344900628).
+LogInit: Display: RandInit(-839369168) SRandInit(-839369168).
 LogInit: Read version file with build ID '3944462'
 LogInit: Overriding engine version to CL 3989454, compatible CL 3944462
 LogInit: Registered custom module enumerator with build ID '3944462'
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.161918
+LogStats: Stats thread started at 0.169949
 LogD3D11RHI: Aftermath initialized
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -84,7 +84,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.137s to configure plugins.
+LogStreaming: Display: Took  0.153s to configure plugins.
 LogModuleManager: Display: Found up-to-date module file C:/Users/i3/Documents/GitHub/BRG_Project/Binaries/Win64/UE4Editor-BRG_Project.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
@@ -217,246 +217,600 @@ LogInit: Compiled (64-bit): Apr  6 2018 12:26:04
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.19
-LogInit: Command Line:  
+LogInit: Command Line: -EpicPortal 
 LogInit: Base Directory: D:/Programy/UNREAL ENIGNE/UE_4.19/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogStreaming: Display: Took  0.001s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.05.07-09.31.14:917][  0]LogInit: Selected Device Profile: [Windows]
-[2018.05.07-09.31.14:917][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.05.07-09.31.14:973][  0]LogInit: Computer: DESKTOP-FKIV5KR
-[2018.05.07-09.31.14:973][  0]LogInit: User: i3
-[2018.05.07-09.31.14:973][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.05.07-09.31.14:973][  0]LogInit: High frequency timer resolution =3.515630 MHz
-[2018.05.07-09.31.14:973][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2018.05.07-09.31.14:973][  0]LogMemory: Platform Memory Stats for Windows
-[2018.05.07-09.31.14:973][  0]LogMemory: Process Physical Memory: 273.26 MB used, 273.26 MB peak
-[2018.05.07-09.31.14:973][  0]LogMemory: Process Virtual Memory: 261.88 MB used, 261.88 MB peak
-[2018.05.07-09.31.14:973][  0]LogMemory: Physical Memory: 5552.75 MB used,  2574.53 MB free, 8127.29 MB total
-[2018.05.07-09.31.14:973][  0]LogMemory: Virtual Memory: 665.28 MB used,  2574.53 MB free, 134217728.00 MB total
-[2018.05.07-09.31.14:990][  0]LogInit: Using OS detected language (pl-PL).
-[2018.05.07-09.31.14:990][  0]LogInit: Using OS detected locale (pl-PL).
-[2018.05.07-09.31.14:992][  0]LogTextLocalizationManager: No localization for 'pl-PL' exists, so 'en' will be used for the language.
-[2018.05.07-09.31.15:388][  0]LogStreaming: Display: Took  0.397s to EndInitTextLocalization.
-[2018.05.07-09.31.15:388][  0]LogInit: Setting process to per monitor DPI aware
-[2018.05.07-09.31.15:412][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.05.07-09.31.15:412][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.05.07-09.31.15:568][  0]LogD3D11RHI: D3D11 adapters:
-[2018.05.07-09.31.15:633][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
-[2018.05.07-09.31.15:633][  0]LogD3D11RHI:       8079/0/4063 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.05.07-09.31.15:635][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.05.07-09.31.15:635][  0]LogD3D11RHI:       0/0/4063 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.05.07-09.31.15:635][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.05.07-09.31.15:642][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.05.07-09.31.15:642][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
-[2018.05.07-09.31.15:642][  0]LogWindows: EnumDisplayDevices:
-[2018.05.07-09.31.15:642][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
-[2018.05.07-09.31.15:642][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2018.05.07-09.31.15:642][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2018.05.07-09.31.15:643][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2018.05.07-09.31.15:643][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.05.07-09.31.15:643][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
-[2018.05.07-09.31.15:643][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.05.07-09.31.15:643][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.05.07-09.31.15:643][  0]LogRHI: Texture pool is 5655 MB (70% of 8079 MB)
-[2018.05.07-09.31.15:672][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2018.05.07-09.31.15:672][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2018.05.07-09.31.15:672][  0]LogD3D11RHI: Async texture creation enabled
-[2018.05.07-09.31.15:699][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.05.07-09.31.15:750][  0]LogShaderCompilers: Guid format shader working directory is 3 characters bigger than the processId version (C:/Users/i3/Documents/GitHub/BRG_Project/Intermediate/Shaders/WorkingDirectory/5272/).
-[2018.05.07-09.31.15:751][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/i3/AppData/Local/Temp/UnrealShaderWorkingDir/3DD8E73C43A2AA25E0C30CBA244E4AC3/'.
-[2018.05.07-09.31.16:031][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.05.07-09.31.16:042][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.05.07-09.31.16:054][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.05.07-09.31.16:065][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.05.07-09.31.16:076][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.05.07-09.31.16:088][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.05.07-09.31.16:099][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.05.07-09.31.16:111][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.05.07-09.31.16:116][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.05.07-09.31.16:126][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.05.07-09.31.16:137][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.05.07-09.31.16:148][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.05.07-09.31.16:158][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
-[2018.05.07-09.31.16:168][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.05.07-09.31.16:178][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.05.07-09.31.16:199][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.05.07-09.31.16:199][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.05.07-09.31.16:209][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.05.07-09.31.16:210][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.05.07-09.31.16:244][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.05.07-09.31.16:254][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.05.07-09.31.16:264][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.05.07-09.31.16:274][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.05.07-09.31.16:285][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.05.07-09.31.16:296][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.05.07-09.31.16:296][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.05.07-09.31.16:382][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.05.07-09.31.16:382][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.05.07-09.31.16:382][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.05.07-09.31.16:963][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.05.07-09.31.17:047][  0]LogDerivedDataCache: Loaded boot cache 0.08s 74MB C:/Users/i3/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.05.07-09.31.17:047][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/i3/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
-[2018.05.07-09.31.17:047][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/i3/Documents/GitHub/BRG_Project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.05.07-09.31.17:047][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.05.07-09.31.17:048][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/i3/Documents/GitHub/BRG_Project/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.05.07-09.31.17:048][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.05.07-09.31.17:061][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.05.07-09.31.17:074][  0]LogDerivedDataCache: Using Local data cache path C:/Users/i3/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.05.07-09.31.17:084][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.05.07-09.31.17:084][  0]LogSlate: Using Freetype 2.6.0
-[2018.05.07-09.31.17:085][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.05.07-09.31.17:085][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.05.07-09.31.17:199][  0]LogAssetRegistry: FAssetRegistry took 0.0251 seconds to start up
-[2018.05.07-09.31.17:456][  0]LogInit: Selected Device Profile: [Windows]
-[2018.05.07-09.31.17:583][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.05.07-09.31.17:585][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.05.07-09.31.17:585][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.05.07-09.31.17:585][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.05.07-09.31.17:585][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.05.07-09.31.17:585][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.05.07-09.31.17:612][  0]LogNetVersion: BRG_Project , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3504874490)
-[2018.05.07-09.31.18:111][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 1 prioritized culture(s) in 0.127095 seconds
-[2018.05.07-09.31.18:116][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
-[2018.05.07-09.31.18:116][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
-[2018.05.07-09.31.18:116][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.05.07-09.31.19:664][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.05.07-09.31.19:691][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.05.07-09.31.20:025][  0]SourceControl: Source control is disabled
-[2018.05.07-09.31.20:025][  0]SourceControl: Source control is disabled
-[2018.05.07-09.31.20:040][  0]SourceControl: Source control is disabled
-[2018.05.07-09.31.20:055][  0]SourceControl: Source control is disabled
-[2018.05.07-09.31.20:462][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.05.07-09.31.20:585][  0]LogOcInput: OculusInput pre-init called
-[2018.05.07-09.31.20:675][  0]LogEngine: Initializing Engine...
-[2018.05.07-09.31.20:676][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.05.07-09.31.20:677][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.05.07-09.31.20:677][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.05.07-09.31.20:895][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.05.07-09.31.20:963][  0]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.05.07-09.31.20:980][  0]LogInit: FAudioDevice initialized.
-[2018.05.07-09.31.21:296][  0]LogDerivedDataCache: Saved boot cache 0.32s 74MB C:/Users/i3/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.05.07-09.31.21:311][  0]LogInit: Texture streaming: Enabled
-[2018.05.07-09.31.21:325][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.05.07-09.31.21:336][  0]LogInit: Transaction tracking system initialized
-[2018.05.07-09.31.21:354][  0]BlueprintLog: New page: Editor Load
-[2018.05.07-09.31.21:412][  0]LocalizationService: Localization service is disabled
-[2018.05.07-09.31.21:497][  0]LogConsoleResponse: Display: 
-[2018.05.07-09.31.21:616][  0]LogAutoReimportManager: Warning: Unable to watch directory C:/Users/i3/Documents/GitHub/BRG_Project/Content/ as it doesn't exist.
-[2018.05.07-09.31.21:616][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.05.07-09.31.21:616][  0]LogCook: Display: Mobile HDR setting 1
-[2018.05.07-09.31.21:616][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.05.07-09.31.21:616][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.05.07-09.31.21:616][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.05.07-09.31.21:911][  0]SourceControl: Source control is disabled
-[2018.05.07-09.31.21:911][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.05.07-09.31.21:912][  0]LightingResults: New page: Lighting Build
-[2018.05.07-09.31.21:914][  0]MapCheck: New page: Map Check
-[2018.05.07-09.31.21:914][  0]LightingResults: New page: Lighting Build
-[2018.05.07-09.31.22:080][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2018.05.07-09.31.22:086][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.05.07-09.31.22:100][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.05.07-09.31.22:138][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 37,713ms to complete.
-[2018.05.07-09.31.22:138][  0]LogFileHelpers: Loading map 'Template_Default' took 0.226
-[2018.05.07-09.31.22:280][  0]LogCollectionManager: Loaded 0 collections in 0.001151 seconds
-[2018.05.07-09.31.22:322][  0]LogFileCache: Scanning file cache for directory 'C:/Users/i3/Documents/GitHub/BRG_Project/Saved/Collections/' took 0.01s
-[2018.05.07-09.31.22:322][  0]LogFileCache: Scanning file cache for directory 'C:/Users/i3/Documents/GitHub/BRG_Project/Content/Developers/i3/Collections/' took 0.01s
-[2018.05.07-09.31.22:322][  0]LogFileCache: Scanning file cache for directory 'C:/Users/i3/Documents/GitHub/BRG_Project/Content/Collections/' took 0.01s
-[2018.05.07-09.31.22:322][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.05.07-09.31.22:331][  0]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 2453 classes and 560 folders.
-[2018.05.07-09.31.22:338][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2018.05.07-09.31.22:377][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2018.05.07-09.31.22:382][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
-[2018.05.07-09.31.22:399][  0]LogSlate: Took 0.000185 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.05.07-09.31.22:401][  0]LogSlate: Took 0.000321 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.05.07-09.31.22:407][  0]LogSlate: Took 0.000226 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.05.07-09.31.22:498][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
-[2018.05.07-09.31.22:694][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.05.07-09.31.22:706][  0]LogSlate: Window 'Tutorials' being destroyed
-[2018.05.07-09.31.22:736][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 0 classes and 0 folders.
-[2018.05.07-09.31.22:736][  0]LogLoad: (Engine Initialization) Total time: 10.43 seconds
-[2018.05.07-09.31.22:736][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.05.07-09.31.22:745][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.05.07-09.31.22:762][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.05.07-09.31.23:109][ 30]LogAssetRegistry: Asset discovery search completed in 5.9313 seconds
-[2018.05.07-09.31.23:111][ 30]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2018.05.07-09.31.23:111][ 30]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000084 seconds (updated 0 objects)
-[2018.05.07-09.31.25:696][334]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.05.07-09.31.27:087][488]Cmd: DELETE
-[2018.05.07-09.31.27:087][488]Cmd: ACTOR DELETE
-[2018.05.07-09.31.27:088][488]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.05.07-09.31.27:124][488]LogEditorActor: Deleted 1 Actors (0.037 secs)
-[2018.05.07-09.31.28:006][592]Cmd: EDIT PASTE
-[2018.05.07-09.31.34:276][ 26]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2018.05.07-09.31.38:863][539]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.05.07-09.31.46:082][539]LogSlate: Window 'Save Level As' being destroyed
-[2018.05.07-09.31.46:087][539]LogSlate: FSceneViewport::OnFocusLost() reason 3
-[2018.05.07-09.31.46:129][539]LogSlate: Took 0.000227 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.05.07-09.31.46:140][539]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ChurchV1" FILE="C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.05.07-09.31.46:614][539]LogSavePackage: Save=459.74ms
-[2018.05.07-09.31.46:614][539]LogSavePackage: Moving 'C:/Users/i3/Documents/GitHub/BRG_Project/Saved/ChurchV180C54C954D70B4D1FAE48E868C428A21.tmp' to 'C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap'
-[2018.05.07-09.31.46:619][539]LogSavePackage: Display: Finished SavePackage C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap
-[2018.05.07-09.31.46:633][539]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ChurchV1_BuiltData" FILE="C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset" SILENT=true
-[2018.05.07-09.31.46:644][539]LogSavePackage: Save=9.06ms
-[2018.05.07-09.31.46:645][539]LogSavePackage: Moving 'C:/Users/i3/Documents/GitHub/BRG_Project/Saved/ChurchV1_BuiltData08164FB14B8228B4D7C16892598C7F6F.tmp' to 'C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset'
-[2018.05.07-09.31.46:646][539]LogSavePackage: Display: Finished SavePackage C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset
-[2018.05.07-09.31.46:650][539]LogFileHelpers: Saving map 'ChurchV1' took 0.562
-[2018.05.07-09.31.57:412][554]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.05.07-09.31.57:545][570]LogTemp: Repeating last play command: Selected Viewport
-[2018.05.07-09.31.57:573][570]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.05.07-09.31.57:573][570]PIE: New page: PIE session: ChurchV1 (7 maj 2018, 13:31:57)
-[2018.05.07-09.31.57:573][570]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ChurchV1
-[2018.05.07-09.31.57:629][570]LogPlayLevel: PIE: StaticDuplicateObject took: (0.055256s)
-[2018.05.07-09.31.57:630][570]LogAIModule: Creating AISystem for world ChurchV1
-[2018.05.07-09.31.57:630][570]LogPlayLevel: PIE: World Init took: (0.001161s)
-[2018.05.07-09.31.57:630][570]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ChurchV1.ChurchV1 to /Game/Maps/UEDPIE_0_ChurchV1.ChurchV1 (0.056710s)
-[2018.05.07-09.31.57:646][570]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.05.07-09.31.57:658][570]LogInit: FAudioDevice initialized.
-[2018.05.07-09.31.57:712][570]LogLoad: Game class is 'GameModeBase'
-[2018.05.07-09.31.57:728][570]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ChurchV1.ChurchV1 up for play (max tick rate 0) at 2018.05.07-11.31.57
-[2018.05.07-09.31.57:728][570]LogWorld: Bringing up level for play took: 0.011990
-[2018.05.07-09.31.57:748][570]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0012 seconds. Added 11 classes and 0 folders.
-[2018.05.07-09.31.57:766][570]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_ChurchV1 0,679
-[2018.05.07-09.32.11:075][132]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.05.07-09.32.18:785][986]Cmd: DELETE
-[2018.05.07-09.32.18:785][986]Cmd: ACTOR DELETE
-[2018.05.07-09.32.18:805][986]LogEditorActor: Deleted Actor: Brush
-[2018.05.07-09.32.19:003][986]LogEditorActor: Deleted 1 Actors (0.218 secs)
-[2018.05.07-09.32.19:612][ 50]Cmd: DELETE
-[2018.05.07-09.32.19:612][ 50]Cmd: ACTOR DELETE
-[2018.05.07-09.32.19:629][ 50]LogEditorActor: Deleted Actor: Brush
-[2018.05.07-09.32.19:822][ 50]LogEditorActor: Deleted 1 Actors (0.210 secs)
-[2018.05.07-09.32.25:618][722]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.05.07-09.32.25:622][722]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ChurchV1" FILE="C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.05.07-09.32.26:080][722]LogSavePackage: Save=437.77ms
-[2018.05.07-09.32.26:081][722]LogSavePackage: Moving 'C:/Users/i3/Documents/GitHub/BRG_Project/Saved/ChurchV17A684EEB4238C8B2F490C2A74DE60A7A.tmp' to 'C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap'
-[2018.05.07-09.32.26:085][722]LogSavePackage: Display: Finished SavePackage C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap
-[2018.05.07-09.32.26:125][722]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ChurchV1_BuiltData" FILE="C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset" SILENT=true
-[2018.05.07-09.32.26:137][722]LogSavePackage: Save=8.03ms
-[2018.05.07-09.32.26:138][722]LogSavePackage: Moving 'C:/Users/i3/Documents/GitHub/BRG_Project/Saved/ChurchV1_BuiltDataF67E36674FAF3A77BF8DF78A1D4A22E0.tmp' to 'C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset'
-[2018.05.07-09.32.26:140][722]LogSavePackage: Display: Finished SavePackage C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset
-[2018.05.07-09.32.27:462][848]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.05.07-09.32.27:953][907]LogTemp: Repeating last play command: Selected Viewport
-[2018.05.07-09.32.27:978][907]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.05.07-09.32.27:979][907]PIE: New page: PIE session: ChurchV1 (7 maj 2018, 13:32:27)
-[2018.05.07-09.32.27:979][907]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ChurchV1
-[2018.05.07-09.32.28:036][907]LogPlayLevel: PIE: StaticDuplicateObject took: (0.056656s)
-[2018.05.07-09.32.28:037][907]LogAIModule: Creating AISystem for world ChurchV1
-[2018.05.07-09.32.28:037][907]LogPlayLevel: PIE: World Init took: (0.000882s)
-[2018.05.07-09.32.28:037][907]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ChurchV1.ChurchV1 to /Game/Maps/UEDPIE_0_ChurchV1.ChurchV1 (0.057793s)
-[2018.05.07-09.32.28:054][907]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.05.07-09.32.28:065][907]LogInit: FAudioDevice initialized.
-[2018.05.07-09.32.28:104][907]LogLoad: Game class is 'GameModeBase'
-[2018.05.07-09.32.28:116][907]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ChurchV1.ChurchV1 up for play (max tick rate 0) at 2018.05.07-11.32.28
-[2018.05.07-09.32.28:116][907]LogWorld: Bringing up level for play took: 0.009832
-[2018.05.07-09.32.28:118][907]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_ChurchV1 1,03
-[2018.05.07-09.32.54:174][615]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.05.07-09.32.54:178][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ChurchV1" FILE="C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.05.07-09.32.54:617][615]LogSavePackage: Save=426.38ms
-[2018.05.07-09.32.54:617][615]LogSavePackage: Moving 'C:/Users/i3/Documents/GitHub/BRG_Project/Saved/ChurchV1B7906012407F5BD1393408B007CB4760.tmp' to 'C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap'
-[2018.05.07-09.32.54:620][615]LogSavePackage: Display: Finished SavePackage C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap
-[2018.05.07-09.32.54:634][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ChurchV1_BuiltData" FILE="C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset" SILENT=true
-[2018.05.07-09.32.54:644][615]LogSavePackage: Save=7.44ms
-[2018.05.07-09.32.54:644][615]LogSavePackage: Moving 'C:/Users/i3/Documents/GitHub/BRG_Project/Saved/ChurchV1_BuiltData46AFE9584DA0C49F681C7BB382522716.tmp' to 'C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset'
-[2018.05.07-09.32.54:646][615]LogSavePackage: Display: Finished SavePackage C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset
+[2018.05.07-16.36.29:471][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.07-16.36.29:471][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.05.07-16.36.29:510][  0]LogInit: Computer: DESKTOP-FKIV5KR
+[2018.05.07-16.36.29:510][  0]LogInit: User: i3
+[2018.05.07-16.36.29:510][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.05.07-16.36.29:510][  0]LogInit: High frequency timer resolution =3.515630 MHz
+[2018.05.07-16.36.29:510][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.05.07-16.36.29:510][  0]LogMemory: Platform Memory Stats for Windows
+[2018.05.07-16.36.29:511][  0]LogMemory: Process Physical Memory: 275.20 MB used, 275.20 MB peak
+[2018.05.07-16.36.29:511][  0]LogMemory: Process Virtual Memory: 261.87 MB used, 261.87 MB peak
+[2018.05.07-16.36.29:511][  0]LogMemory: Physical Memory: 5218.57 MB used,  2908.71 MB free, 8127.29 MB total
+[2018.05.07-16.36.29:511][  0]LogMemory: Virtual Memory: 665.81 MB used,  2908.71 MB free, 134217728.00 MB total
+[2018.05.07-16.36.29:533][  0]LogInit: Using OS detected language (pl-PL).
+[2018.05.07-16.36.29:533][  0]LogInit: Using OS detected locale (pl-PL).
+[2018.05.07-16.36.29:535][  0]LogTextLocalizationManager: No localization for 'pl-PL' exists, so 'en' will be used for the language.
+[2018.05.07-16.36.29:968][  0]LogStreaming: Display: Took  0.436s to EndInitTextLocalization.
+[2018.05.07-16.36.29:968][  0]LogInit: Setting process to per monitor DPI aware
+[2018.05.07-16.36.29:988][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.05.07-16.36.29:988][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.05.07-16.36.30:146][  0]LogD3D11RHI: D3D11 adapters:
+[2018.05.07-16.36.30:196][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2018.05.07-16.36.30:196][  0]LogD3D11RHI:       8079/0/4063 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.05.07-16.36.30:199][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.05.07-16.36.30:199][  0]LogD3D11RHI:       0/0/4063 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.05.07-16.36.30:199][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.05.07-16.36.30:205][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.05.07-16.36.30:205][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2018.05.07-16.36.30:205][  0]LogWindows: EnumDisplayDevices:
+[2018.05.07-16.36.30:205][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2018.05.07-16.36.30:205][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.05.07-16.36.30:205][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.05.07-16.36.30:205][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.05.07-16.36.30:205][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.05.07-16.36.30:205][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2018.05.07-16.36.30:205][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.05.07-16.36.30:205][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.05.07-16.36.30:205][  0]LogRHI: Texture pool is 5655 MB (70% of 8079 MB)
+[2018.05.07-16.36.30:234][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.05.07-16.36.30:234][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.05.07-16.36.30:234][  0]LogD3D11RHI: Async texture creation enabled
+[2018.05.07-16.36.30:250][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.05.07-16.36.30:299][  0]LogShaderCompilers: Guid format shader working directory is 6 characters bigger than the processId version (C:/Users/i3/Documents/GitHub/BRG_Project/Intermediate/Shaders/WorkingDirectory/8/).
+[2018.05.07-16.36.30:299][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/i3/AppData/Local/Temp/UnrealShaderWorkingDir/14F40741417DEE5A54247684A801485F/'.
+[2018.05.07-16.36.30:496][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.05.07-16.36.30:507][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.05.07-16.36.30:519][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.05.07-16.36.30:530][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.05.07-16.36.30:542][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.05.07-16.36.30:553][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.05.07-16.36.30:565][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.05.07-16.36.30:576][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.05.07-16.36.30:582][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.05.07-16.36.30:592][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.05.07-16.36.30:603][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.05.07-16.36.30:613][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.05.07-16.36.30:624][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.05.07-16.36.30:634][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.05.07-16.36.30:645][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.05.07-16.36.30:665][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.05.07-16.36.30:666][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.05.07-16.36.30:676][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.05.07-16.36.30:677][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.05.07-16.36.30:712][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.05.07-16.36.30:739][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.05.07-16.36.30:752][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.05.07-16.36.30:762][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.05.07-16.36.30:772][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.05.07-16.36.30:783][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.05.07-16.36.30:783][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.05.07-16.36.30:869][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.05.07-16.36.30:869][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.05.07-16.36.30:869][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.05.07-16.36.31:456][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.05.07-16.36.31:531][  0]LogDerivedDataCache: Loaded boot cache 0.08s 74MB C:/Users/i3/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.05.07-16.36.31:531][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/i3/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.05.07-16.36.31:532][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/i3/Documents/GitHub/BRG_Project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.05.07-16.36.31:532][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.05.07-16.36.31:532][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/i3/Documents/GitHub/BRG_Project/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.05.07-16.36.31:532][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.05.07-16.36.31:546][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.05.07-16.36.31:559][  0]LogDerivedDataCache: Using Local data cache path C:/Users/i3/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.05.07-16.36.31:569][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.05.07-16.36.31:569][  0]LogSlate: Using Freetype 2.6.0
+[2018.05.07-16.36.31:570][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.07-16.36.31:570][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.07-16.36.31:677][  0]LogAssetRegistry: FAssetRegistry took 0.0248 seconds to start up
+[2018.05.07-16.36.31:942][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.07-16.36.32:067][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.05.07-16.36.32:069][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.05.07-16.36.32:069][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.05.07-16.36.32:069][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.05.07-16.36.32:069][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.05.07-16.36.32:069][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.05.07-16.36.32:095][  0]LogNetVersion: BRG_Project , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3504874490)
+[2018.05.07-16.36.32:460][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 1 prioritized culture(s) in 0.039421 seconds
+[2018.05.07-16.36.32:465][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.05.07-16.36.32:465][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
+[2018.05.07-16.36.32:465][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.05.07-16.36.33:930][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.05.07-16.36.33:970][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.05.07-16.36.34:305][  0]SourceControl: Source control is disabled
+[2018.05.07-16.36.34:305][  0]SourceControl: Source control is disabled
+[2018.05.07-16.36.34:320][  0]SourceControl: Source control is disabled
+[2018.05.07-16.36.34:375][  0]SourceControl: Source control is disabled
+[2018.05.07-16.36.34:804][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.05.07-16.36.34:928][  0]LogOcInput: OculusInput pre-init called
+[2018.05.07-16.36.35:026][  0]LogEngine: Initializing Engine...
+[2018.05.07-16.36.35:027][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.05.07-16.36.35:029][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.05.07-16.36.35:029][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.05.07-16.36.35:252][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.05.07-16.36.35:316][  0]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.07-16.36.35:332][  0]LogInit: FAudioDevice initialized.
+[2018.05.07-16.36.35:475][  0]LogDerivedDataCache: Saved boot cache 0.14s 74MB C:/Users/i3/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.05.07-16.36.35:494][  0]LogInit: Texture streaming: Enabled
+[2018.05.07-16.36.35:507][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.05.07-16.36.35:519][  0]LogInit: Transaction tracking system initialized
+[2018.05.07-16.36.35:537][  0]BlueprintLog: New page: Editor Load
+[2018.05.07-16.36.35:598][  0]LocalizationService: Localization service is disabled
+[2018.05.07-16.36.35:710][  0]LogConsoleResponse: Display: 
+[2018.05.07-16.36.35:838][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.05.07-16.36.35:838][  0]LogCook: Display: Mobile HDR setting 1
+[2018.05.07-16.36.35:838][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.05.07-16.36.35:838][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.05.07-16.36.35:838][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.05.07-16.36.36:141][  0]LogFileCache: Scanning file cache for directory 'C:/Users/i3/Documents/GitHub/BRG_Project/Content/' took 0.01s
+[2018.05.07-16.36.36:141][  0]SourceControl: Source control is disabled
+[2018.05.07-16.36.36:142][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.07-16.36.36:142][  0]LightingResults: New page: Lighting Build
+[2018.05.07-16.36.36:144][  0]MapCheck: New page: Map Check
+[2018.05.07-16.36.36:144][  0]LightingResults: New page: Lighting Build
+[2018.05.07-16.36.36:309][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2018.05.07-16.36.36:315][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.05.07-16.36.36:327][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.07-16.36.36:363][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 35,921ms to complete.
+[2018.05.07-16.36.36:364][  0]LogFileHelpers: Loading map 'Template_Default' took 0.222
+[2018.05.07-16.36.36:490][  0]LogCollectionManager: Loaded 0 collections in 0.001296 seconds
+[2018.05.07-16.36.36:531][  0]LogFileCache: Scanning file cache for directory 'C:/Users/i3/Documents/GitHub/BRG_Project/Saved/Collections/' took 0.01s
+[2018.05.07-16.36.36:531][  0]LogFileCache: Scanning file cache for directory 'C:/Users/i3/Documents/GitHub/BRG_Project/Content/Developers/i3/Collections/' took 0.01s
+[2018.05.07-16.36.36:531][  0]LogFileCache: Scanning file cache for directory 'C:/Users/i3/Documents/GitHub/BRG_Project/Content/Collections/' took 0.01s
+[2018.05.07-16.36.36:531][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.05.07-16.36.36:540][  0]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 2453 classes and 560 folders.
+[2018.05.07-16.36.36:546][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.05.07-16.36.36:949][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.05.07-16.36.36:953][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2018.05.07-16.36.36:970][  0]LogSlate: Took 0.000564 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.05.07-16.36.36:972][  0]LogSlate: Took 0.000357 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.05.07-16.36.36:982][  0]LogSlate: Took 0.001737 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.05.07-16.36.37:080][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2018.05.07-16.36.37:169][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.07-16.36.37:240][  0]LogSlate: Window 'Tutorials' being destroyed
+[2018.05.07-16.36.37:276][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0023 seconds. Added 0 classes and 0 folders.
+[2018.05.07-16.36.37:276][  0]LogLoad: (Engine Initialization) Total time: 10.41 seconds
+[2018.05.07-16.36.37:276][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.05.07-16.36.37:631][  0]LogAssetRegistry: Asset discovery search completed in 5.9758 seconds
+[2018.05.07-16.36.37:633][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.05.07-16.36.37:633][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000045 seconds (updated 0 objects)
+[2018.05.07-16.36.37:635][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.05.07-16.36.37:671][  0]LogSlate: Took 0.000241 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.05.07-16.40.01:639][795]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.07-16.40.03:776][ 48]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.07-16.40.04:999][185]Cmd: MAP LOAD FILE="C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.07-16.40.05:003][185]LogSlate: Took 0.000210 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.05.07-16.40.05:012][185]LightingResults: New page: Lighting Build
+[2018.05.07-16.40.05:013][185]LoadErrors: New page: Loading map: ChurchV1.umap
+[2018.05.07-16.40.05:016][185]MapCheck: New page: Map Check
+[2018.05.07-16.40.05:016][185]LightingResults: New page: Lighting Build
+[2018.05.07-16.40.05:843][185]LogAIModule: Creating AISystem for world ChurchV1
+[2018.05.07-16.40.05:867][185]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.05.07-16.40.05:896][185]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.07-16.40.05:942][185]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 45,599ms to complete.
+[2018.05.07-16.40.05:942][185]LogFileHelpers: Loading map 'ChurchV1' took 0.950
+[2018.05.07-16.40.05:944][185]LogSlate: Window 'Open Level' being destroyed
+[2018.05.07-16.53.46:174][304]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture)
+[2018.05.07-16.53.50:869][833]Cmd: TRANSACTION UNDO
+[2018.05.07-16.53.50:869][833]LogEditorTransaction: Undo Move Actors
+[2018.05.07-16.53.56:383][458]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.05.07-16.55.03:123][189]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.05.07-16.55.04:273][317]Cmd: SELECT NONE
+[2018.05.07-16.57.48:269][561]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/ChurchV1' took 0.011
+[2018.05.07-17.00.59:060][865]Cmd: TRANSACTION UNDO
+[2018.05.07-17.00.59:060][865]LogEditorTransaction: Undo Scale Actors
+[2018.05.07-17.00.59:097][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush63.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:097][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush57.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:097][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush72.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:098][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush66.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:098][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush69.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:098][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush42.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:098][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush54.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:099][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush50.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:099][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush79.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:099][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.ConeBrush7.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:100][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.ConeBrush.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:100][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush75.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:100][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush76.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:101][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.CylinderBrush13.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:101][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.ConeBrush3.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:101][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.CylinderBrush2.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:102][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush8.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:102][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush6.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:102][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush11.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:102][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.CylinderBrush6.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:102][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.CylinderBrush4.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:137][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush165.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:138][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush40.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:138][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush36.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:139][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush17.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:140][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush24.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:140][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush155.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:140][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush159.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:141][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush162.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:141][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.LinearStairBrush2.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:141][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush145.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:141][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush141.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:141][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush150.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:141][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush147.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:142][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush148.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:142][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush177.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:142][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush174.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:143][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush168.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:144][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush105.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:144][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush114.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:144][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush89.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:145][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush90.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:145][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush86.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:145][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush96.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:145][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush97.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:145][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush93.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:146][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush132.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:146][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.CylinderBrush22.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:146][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush138.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:146][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush135.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:146][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush133_25.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:147][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush115.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:147][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush126.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:147][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.CylinderBrush21.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:368][865]Cmd: TRANSACTION UNDO
+[2018.05.07-17.00.59:368][865]LogEditorTransaction: Undo Scale Actors
+[2018.05.07-17.00.59:406][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush65.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:407][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush74.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:407][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush49.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:408][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush56.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:409][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush84.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:409][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.CylinderBrush18.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:410][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.ConeBrush5.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:410][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.ConeBrush3.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:411][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush8.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:411][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.CylinderBrush3.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:413][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.CylinderBrush.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:413][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.CylinderBrush6.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:413][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush13.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:413][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush10.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:449][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush165.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:449][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush3.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:450][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush4.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:450][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush32.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:450][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush42.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:451][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush18.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:451][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush25.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:454][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush177.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:454][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush174.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:454][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.ConeBrush10.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:454][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush164.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:454][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush111.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:455][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush104.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:455][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush100.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:456][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush113.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:456][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush107.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:456][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush108.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:456][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush90.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:456][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush86.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:456][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush97.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:457][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush93.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:457][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush94.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:457][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush130.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:457][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush134.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:458][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush136.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:458][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush120.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:458][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush116.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:458][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush126.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:459][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.CylinderBrush21.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:459][865]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush123.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:840][880]Cmd: TRANSACTION UNDO
+[2018.05.07-17.00.59:840][880]LogEditorTransaction: Undo Scale Actors
+[2018.05.07-17.00.59:876][880]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush73.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:876][880]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush69.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:876][880]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush49.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:877][880]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush56.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:877][880]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush82.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:877][880]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.CylinderBrush17.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:878][880]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush84.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:878][880]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.CylinderBrush18.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:878][880]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.ConeBrush9.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:878][880]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.CylinderBrush12.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:879][880]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush76.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:879][880]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.ConeBrush5.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:879][880]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.ConeBrush3.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:879][880]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.CylinderBrush14.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:879][880]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush8.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:880][880]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.CylinderBrush3.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:880][880]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.CylinderBrush.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:880][880]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.CylinderBrush6.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:880][880]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush13.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:881][880]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush10.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:916][880]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush165.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:916][880]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush32.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:917][880]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush42.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:917][880]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.CylinderBrush11.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:918][880]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush17.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:918][880]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.CylinderBrush9.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:918][880]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush23.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:918][880]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush24.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:918][880]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush20.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:921][880]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush177.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:921][880]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush174.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:921][880]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.ConeBrush10.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:921][880]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush164.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:921][880]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush111.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:922][880]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush104.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:922][880]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush100.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:922][880]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush113.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:923][880]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush107.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:923][880]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush108.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:923][880]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush90.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:923][880]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush86.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:923][880]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush97.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:924][880]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush93.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:924][880]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush94.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:924][880]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush130.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:924][880]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush134.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:925][880]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush136.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:925][880]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush120.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:925][880]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush116.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:925][880]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush126.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:925][880]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.CylinderBrush21.BrushComponent0) Component already registered.
+[2018.05.07-17.00.59:925][880]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush123.BrushComponent0) Component already registered.
+[2018.05.07-17.01.04:469][321]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.07-17.01.50:146][174]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.07-17.05.20:112][473]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush133)
+[2018.05.07-17.05.26:056][135]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.05.07-17.08.34:432][735]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.07-17.08.44:131][775]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.07-17.08.45:776][961]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.07-17.09.25:844][376]Cmd: SELECT NONE
+[2018.05.07-17.09.53:134][399]Cmd: TRANSACTION UNDO
+[2018.05.07-17.09.53:134][399]LogEditorTransaction: Undo Scale Actors
+[2018.05.07-17.09.53:171][399]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush66.BrushComponent0) Component already registered.
+[2018.05.07-17.09.53:171][399]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush62.BrushComponent0) Component already registered.
+[2018.05.07-17.09.53:171][399]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush75.BrushComponent0) Component already registered.
+[2018.05.07-17.09.53:171][399]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush71.BrushComponent0) Component already registered.
+[2018.05.07-17.09.53:172][399]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush72.BrushComponent0) Component already registered.
+[2018.05.07-17.09.53:172][399]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush50.BrushComponent0) Component already registered.
+[2018.05.07-17.09.53:172][399]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush46.BrushComponent0) Component already registered.
+[2018.05.07-17.09.53:172][399]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush57.BrushComponent0) Component already registered.
+[2018.05.07-17.09.53:172][399]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush53.BrushComponent0) Component already registered.
+[2018.05.07-17.09.53:172][399]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush54.BrushComponent0) Component already registered.
+[2018.05.07-17.09.53:173][399]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush82.BrushComponent0) Component already registered.
+[2018.05.07-17.09.53:173][399]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.ConeBrush9.BrushComponent0) Component already registered.
+[2018.05.07-17.09.53:173][399]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush84.BrushComponent0) Component already registered.
+[2018.05.07-17.09.53:173][399]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.CylinderBrush13.BrushComponent0) Component already registered.
+[2018.05.07-17.09.53:174][399]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush78.BrushComponent0) Component already registered.
+[2018.05.07-17.09.53:174][399]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.ConeBrush6.BrushComponent0) Component already registered.
+[2018.05.07-17.09.53:174][399]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.ConeBrush4.BrushComponent0) Component already registered.
+[2018.05.07-17.09.53:175][399]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.CylinderBrush15.BrushComponent0) Component already registered.
+[2018.05.07-17.09.53:175][399]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.CylinderBrush4.BrushComponent0) Component already registered.
+[2018.05.07-17.09.53:176][399]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.CylinderBrush2.BrushComponent0) Component already registered.
+[2018.05.07-17.09.53:176][399]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush14.BrushComponent0) Component already registered.
+[2018.05.07-17.09.53:177][399]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush11.BrushComponent0) Component already registered.
+[2018.05.07-17.09.53:177][399]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.CylinderBrush6.BrushComponent0) Component already registered.
+[2018.05.07-17.09.53:177][399]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush35.BrushComponent0) Component already registered.
+[2018.05.07-17.09.53:213][399]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush6.BrushComponent0) Component already registered.
+[2018.05.07-17.09.53:213][399]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush2.BrushComponent0) Component already registered.
+[2018.05.07-17.09.53:213][399]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush36.BrushComponent0) Component already registered.
+[2018.05.07-17.09.53:214][399]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush29.BrushComponent0) Component already registered.
+[2018.05.07-17.09.53:214][399]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush43.BrushComponent0) Component already registered.
+[2018.05.07-17.09.53:214][399]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush39.BrushComponent0) Component already registered.
+[2018.05.07-17.09.53:214][399]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush40.BrushComponent0) Component already registered.
+[2018.05.07-17.09.53:214][399]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush19.BrushComponent0) Component already registered.
+[2018.05.07-17.09.53:215][399]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.CylinderBrush10.BrushComponent0) Component already registered.
+[2018.05.07-17.09.53:215][399]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush87.BrushComponent0) Component already registered.
+[2018.05.07-17.09.53:215][399]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush26_45.BrushComponent0) Component already registered.
+[2018.05.07-17.09.53:215][399]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush22.BrushComponent0) Component already registered.
+[2018.05.07-17.09.53:215][399]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush23.BrushComponent0) Component already registered.
+[2018.05.07-17.09.53:218][399]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush177.BrushComponent0) Component already registered.
+[2018.05.07-17.09.53:218][399]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush174.BrushComponent0) Component already registered.
+[2018.05.07-17.09.53:218][399]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush33_12.BrushComponent0) Component already registered.
+[2018.05.07-17.09.53:218][399]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.CylinderBrush26.BrushComponent0) Component already registered.
+[2018.05.07-17.09.53:219][399]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush163.BrushComponent0) Component already registered.
+[2018.05.07-17.09.53:219][399]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush166.BrushComponent0) Component already registered.
+[2018.05.07-17.09.53:219][399]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush104.BrushComponent0) Component already registered.
+[2018.05.07-17.09.53:219][399]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush108.BrushComponent0) Component already registered.
+[2018.05.07-17.09.53:220][399]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush113.BrushComponent0) Component already registered.
+[2018.05.07-17.09.53:220][399]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush90.BrushComponent0) Component already registered.
+[2018.05.07-17.09.53:220][399]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush94.BrushComponent0) Component already registered.
+[2018.05.07-17.09.53:221][399]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush97.BrushComponent0) Component already registered.
+[2018.05.07-17.09.53:221][399]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush117.BrushComponent0) Component already registered.
+[2018.05.07-17.09.53:513][407]Cmd: TRANSACTION UNDO
+[2018.05.07-17.09.53:513][407]LogEditorTransaction: Undo Clicking on Actors
+[2018.05.07-17.09.56:192][713]Cmd: TRANSACTION REDO
+[2018.05.07-17.09.56:192][713]LogEditorTransaction: Redo Clicking on Actors
+[2018.05.07-17.09.57:266][833]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush35)
+[2018.05.07-17.10.14:298][657]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush35)
+[2018.05.07-17.11.40:732][404]Cmd: DELETE
+[2018.05.07-17.11.40:732][404]Cmd: ACTOR DELETE
+[2018.05.07-17.11.40:794][404]LogEditorActor: Deleted Actor: Brush
+[2018.05.07-17.11.41:165][404]LogEditorActor: Deleted 1 Actors (0.433 secs)
+[2018.05.07-17.12.26:099][264]Cmd: TRANSACTION UNDO
+[2018.05.07-17.12.26:099][264]LogEditorTransaction: Undo Scale Actors
+[2018.05.07-17.12.26:136][264]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush72.BrushComponent0) Component already registered.
+[2018.05.07-17.12.26:137][264]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush75.BrushComponent0) Component already registered.
+[2018.05.07-17.12.26:137][264]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush76.BrushComponent0) Component already registered.
+[2018.05.07-17.12.26:137][264]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.ConeBrush2.BrushComponent0) Component already registered.
+[2018.05.07-17.12.26:138][264]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush55.BrushComponent0) Component already registered.
+[2018.05.07-17.12.26:138][264]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush49.BrushComponent0) Component already registered.
+[2018.05.07-17.12.26:138][264]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush50.BrushComponent0) Component already registered.
+[2018.05.07-17.12.26:138][264]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush62.BrushComponent0) Component already registered.
+[2018.05.07-17.12.26:138][264]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush63.BrushComponent0) Component already registered.
+[2018.05.07-17.12.26:138][264]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush84.BrushComponent0) Component already registered.
+[2018.05.07-17.12.26:139][264]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.ConeBrush8.BrushComponent0) Component already registered.
+[2018.05.07-17.12.26:139][264]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush88.BrushComponent0) Component already registered.
+[2018.05.07-17.12.26:140][264]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.CylinderBrush14.BrushComponent0) Component already registered.
+[2018.05.07-17.12.26:140][264]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.ConeBrush7.BrushComponent0) Component already registered.
+[2018.05.07-17.12.26:140][264]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.CylinderBrush17.BrushComponent0) Component already registered.
+[2018.05.07-17.12.26:141][264]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush9.BrushComponent0) Component already registered.
+[2018.05.07-17.12.26:142][264]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.CylinderBrush10.BrushComponent0) Component already registered.
+[2018.05.07-17.12.26:142][264]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush13.BrushComponent0) Component already registered.
+[2018.05.07-17.12.26:142][264]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush.BrushComponent0) Component already registered.
+[2018.05.07-17.12.26:178][264]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.CylinderBrush.BrushComponent0) Component already registered.
+[2018.05.07-17.12.26:179][264]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush2.BrushComponent0) Component already registered.
+[2018.05.07-17.12.26:179][264]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush38.BrushComponent0) Component already registered.
+[2018.05.07-17.12.26:179][264]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush39.BrushComponent0) Component already registered.
+[2018.05.07-17.12.26:180][264]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush21.BrushComponent0) Component already registered.
+[2018.05.07-17.12.26:181][264]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush30.BrushComponent0) Component already registered.
+[2018.05.07-17.12.26:181][264]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush24.BrushComponent0) Component already registered.
+[2018.05.07-17.12.26:181][264]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush25.BrushComponent0) Component already registered.
+[2018.05.07-17.12.26:181][264]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.LinearStairBrush3.BrushComponent0) Component already registered.
+[2018.05.07-17.12.26:181][264]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush111.BrushComponent0) Component already registered.
+[2018.05.07-17.12.26:182][264]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush153.BrushComponent0) Component already registered.
+[2018.05.07-17.12.26:183][264]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush158.BrushComponent0) Component already registered.
+[2018.05.07-17.12.26:183][264]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush178.BrushComponent0) Component already registered.
+[2018.05.07-17.12.26:184][264]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush181.BrushComponent0) Component already registered.
+[2018.05.07-17.12.26:184][264]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush182.BrushComponent0) Component already registered.
+[2018.05.07-17.12.26:184][264]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush169.BrushComponent0) Component already registered.
+[2018.05.07-17.12.26:184][264]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush167.BrushComponent0) Component already registered.
+[2018.05.07-17.12.26:184][264]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.ConeBrush11.BrushComponent0) Component already registered.
+[2018.05.07-17.12.26:184][264]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush172.BrushComponent0) Component already registered.
+[2018.05.07-17.12.26:185][264]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush12.BrushComponent0) Component already registered.
+[2018.05.07-17.12.26:185][264]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush116.BrushComponent0) Component already registered.
+[2018.05.07-17.12.26:185][264]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush108.BrushComponent0) Component already registered.
+[2018.05.07-17.12.26:185][264]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush109.BrushComponent0) Component already registered.
+[2018.05.07-17.12.26:185][264]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush121.BrushComponent0) Component already registered.
+[2018.05.07-17.12.26:186][264]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush122.BrushComponent0) Component already registered.
+[2018.05.07-17.12.26:186][264]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush97.BrushComponent0) Component already registered.
+[2018.05.07-17.12.26:186][264]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush98.BrushComponent0) Component already registered.
+[2018.05.07-17.12.26:187][264]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush138.BrushComponent0) Component already registered.
+[2018.05.07-17.12.26:187][264]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush148.BrushComponent0) Component already registered.
+[2018.05.07-17.12.26:187][264]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush144_36.BrushComponent0) Component already registered.
+[2018.05.07-17.12.26:188][264]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.CylinderBrush22.BrushComponent0) Component already registered.
+[2018.05.07-17.12.26:188][264]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush124.BrushComponent0) Component already registered.
+[2018.05.07-17.12.26:188][264]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush134.BrushComponent0) Component already registered.
+[2018.05.07-17.12.26:188][264]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush129.BrushComponent0) Component already registered.
+[2018.05.07-17.13.19:299][853]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush182)
+[2018.05.07-17.14.10:078][159]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.07-17.14.12:064][375]Cmd: SELECT NONE
+[2018.05.07-17.17.40:008][530]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.07-17.17.40:018][530]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ChurchV1" FILE="C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.05.07-17.17.40:707][530]LogSavePackage: Save=543.48ms
+[2018.05.07-17.17.40:707][530]LogSavePackage: Moving 'C:/Users/i3/Documents/GitHub/BRG_Project/Saved/ChurchV15DD5A3484C87301D254888BEEE63565F.tmp' to 'C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap'
+[2018.05.07-17.17.40:712][530]LogSavePackage: Display: Finished SavePackage C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap
+[2018.05.07-17.17.40:804][530]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ChurchV1_BuiltData" FILE="C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset" SILENT=true
+[2018.05.07-17.17.40:833][530]LogSavePackage: Save=20.57ms
+[2018.05.07-17.17.40:833][530]LogSavePackage: Moving 'C:/Users/i3/Documents/GitHub/BRG_Project/Saved/ChurchV1_BuiltDataB23D217441E127DC7345FCB26CDC36F6.tmp' to 'C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset'
+[2018.05.07-17.17.40:835][530]LogSavePackage: Display: Finished SavePackage C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset
+[2018.05.07-17.18.26:076][478]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.07-17.18.26:081][478]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ChurchV1" FILE="C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.05.07-17.18.26:630][478]LogSavePackage: Save=531.82ms
+[2018.05.07-17.18.26:631][478]LogSavePackage: Moving 'C:/Users/i3/Documents/GitHub/BRG_Project/Saved/ChurchV18C07886C43F57CA1D7746C81C87F9B72.tmp' to 'C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap'
+[2018.05.07-17.18.26:635][478]LogSavePackage: Display: Finished SavePackage C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap
+[2018.05.07-17.18.26:655][478]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ChurchV1_BuiltData" FILE="C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset" SILENT=true
+[2018.05.07-17.18.26:668][478]LogSavePackage: Save=9.73ms
+[2018.05.07-17.18.26:668][478]LogSavePackage: Moving 'C:/Users/i3/Documents/GitHub/BRG_Project/Saved/ChurchV1_BuiltDataCE009AC7457991496A7CFAA024BD1604.tmp' to 'C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset'
+[2018.05.07-17.18.26:670][478]LogSavePackage: Display: Finished SavePackage C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset
+[2018.05.07-17.20.30:414][442]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.07-17.20.30:419][442]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ChurchV1" FILE="C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.05.07-17.20.30:973][442]LogSavePackage: Save=534.14ms
+[2018.05.07-17.20.30:973][442]LogSavePackage: Moving 'C:/Users/i3/Documents/GitHub/BRG_Project/Saved/ChurchV1BC0C70A8474A9D1D2B3EBF8EAAF86962.tmp' to 'C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap'
+[2018.05.07-17.20.30:985][442]LogSavePackage: Display: Finished SavePackage C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap
+[2018.05.07-17.20.31:005][442]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ChurchV1_BuiltData" FILE="C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset" SILENT=true
+[2018.05.07-17.20.31:018][442]LogSavePackage: Save=9.53ms
+[2018.05.07-17.20.31:018][442]LogSavePackage: Moving 'C:/Users/i3/Documents/GitHub/BRG_Project/Saved/ChurchV1_BuiltData4D12ED92473FCCAC5BC99986C54C4603.tmp' to 'C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset'
+[2018.05.07-17.20.31:021][442]LogSavePackage: Display: Finished SavePackage C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset
+[2018.05.07-17.20.44:655][995]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.07-17.20.44:659][995]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ChurchV1" FILE="C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.05.07-17.20.45:195][995]LogSavePackage: Save=518.05ms
+[2018.05.07-17.20.45:195][995]LogSavePackage: Moving 'C:/Users/i3/Documents/GitHub/BRG_Project/Saved/ChurchV1E2F15CB048DF0AD5D9EA68B46E03D300.tmp' to 'C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap'
+[2018.05.07-17.20.45:198][995]LogSavePackage: Display: Finished SavePackage C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap
+[2018.05.07-17.20.45:212][995]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ChurchV1_BuiltData" FILE="C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset" SILENT=true
+[2018.05.07-17.20.45:226][995]LogSavePackage: Save=10.71ms
+[2018.05.07-17.20.45:226][995]LogSavePackage: Moving 'C:/Users/i3/Documents/GitHub/BRG_Project/Saved/ChurchV1_BuiltDataB8B9D3754E1D77264601FDB01C358C80.tmp' to 'C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset'
+[2018.05.07-17.20.45:228][995]LogSavePackage: Display: Finished SavePackage C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset
+[2018.05.07-17.21.32:690][ 23]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.07-17.21.32:695][ 23]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ChurchV1" FILE="C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.05.07-17.21.33:253][ 23]LogSavePackage: Save=539.96ms
+[2018.05.07-17.21.33:253][ 23]LogSavePackage: Moving 'C:/Users/i3/Documents/GitHub/BRG_Project/Saved/ChurchV11D999FB44D6D73E08A2C58893DAB6868.tmp' to 'C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap'
+[2018.05.07-17.21.33:259][ 23]LogSavePackage: Display: Finished SavePackage C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap
+[2018.05.07-17.21.33:281][ 23]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ChurchV1_BuiltData" FILE="C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset" SILENT=true
+[2018.05.07-17.21.33:294][ 23]LogSavePackage: Save=9.61ms
+[2018.05.07-17.21.33:294][ 23]LogSavePackage: Moving 'C:/Users/i3/Documents/GitHub/BRG_Project/Saved/ChurchV1_BuiltData050933E041015657AC258AB6981BC895.tmp' to 'C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset'
+[2018.05.07-17.21.33:296][ 23]LogSavePackage: Display: Finished SavePackage C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset
+[2018.05.07-17.22.51:425][818]Cmd: EDCALLBACK SURFPROPS
+[2018.05.07-17.22.51:844][855]Cmd: EDCALLBACK SURFPROPS
+[2018.05.07-17.22.52:498][921]Cmd: EDCALLBACK SURFPROPS
+[2018.05.07-17.22.53:202][997]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.07-17.22.54:561][155]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.05.07-17.22.55:072][208]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.05.07-17.23.50:889][ 81]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.05.07-17.23.51:794][181]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.05.07-17.23.52:496][260]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.05.07-17.23.53:049][322]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.05.07-17.23.53:731][390]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.05.07-17.23.54:799][496]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.05.07-17.23.57:064][733]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.05.07-17.25.00:600][288]Cmd: TRANSACTION UNDO
+[2018.05.07-17.25.00:600][288]LogEditorTransaction: Undo Move Actors
+[2018.05.07-17.25.00:638][288]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.ConeBrush2.BrushComponent0) Component already registered.
+[2018.05.07-17.25.00:639][288]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.ConeBrush.BrushComponent0) Component already registered.
+[2018.05.07-17.25.00:639][288]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush51.BrushComponent0) Component already registered.
+[2018.05.07-17.25.00:640][288]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush62.BrushComponent0) Component already registered.
+[2018.05.07-17.25.00:640][288]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush88.BrushComponent0) Component already registered.
+[2018.05.07-17.25.00:641][288]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush95.BrushComponent0) Component already registered.
+[2018.05.07-17.25.00:642][288]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.ConeBrush8.BrushComponent0) Component already registered.
+[2018.05.07-17.25.00:642][288]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush82.BrushComponent0) Component already registered.
+[2018.05.07-17.25.00:643][288]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush8.BrushComponent0) Component already registered.
+[2018.05.07-17.25.00:643][288]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush13.BrushComponent0) Component already registered.
+[2018.05.07-17.25.00:681][288]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush3.BrushComponent0) Component already registered.
+[2018.05.07-17.25.00:681][288]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush41.BrushComponent0) Component already registered.
+[2018.05.07-17.25.00:682][288]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush21.BrushComponent0) Component already registered.
+[2018.05.07-17.25.00:682][288]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush19.BrushComponent0) Component already registered.
+[2018.05.07-17.25.00:683][288]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush29.BrushComponent0) Component already registered.
+[2018.05.07-17.25.00:683][288]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush27.BrushComponent0) Component already registered.
+[2018.05.07-17.25.00:683][288]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush163.BrushComponent0) Component already registered.
+[2018.05.07-17.25.00:684][288]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.ConeBrush11.BrushComponent0) Component already registered.
+[2018.05.07-17.25.00:684][288]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush160.BrushComponent0) Component already registered.
+[2018.05.07-17.25.00:685][288]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush111.BrushComponent0) Component already registered.
+[2018.05.07-17.25.00:686][288]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush191.BrushComponent0) Component already registered.
+[2018.05.07-17.25.00:686][288]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush67_13.BrushComponent0) Component already registered.
+[2018.05.07-17.25.00:687][288]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush170.BrushComponent0) Component already registered.
+[2018.05.07-17.25.00:687][288]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush175.BrushComponent0) Component already registered.
+[2018.05.07-17.25.00:688][288]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush114.BrushComponent0) Component already registered.
+[2018.05.07-17.25.00:688][288]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush122.BrushComponent0) Component already registered.
+[2018.05.07-17.25.00:688][288]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush103.BrushComponent0) Component already registered.
+[2018.05.07-17.25.00:689][288]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush110.BrushComponent0) Component already registered.
+[2018.05.07-17.25.00:689][288]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush145.BrushComponent0) Component already registered.
+[2018.05.07-17.25.00:690][288]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush143.BrushComponent0) Component already registered.
+[2018.05.07-17.25.00:690][288]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush151.BrushComponent0) Component already registered.
+[2018.05.07-17.25.00:690][288]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush149.BrushComponent0) Component already registered.
+[2018.05.07-17.25.00:690][288]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush131.BrushComponent0) Component already registered.
+[2018.05.07-17.25.00:691][288]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush129.BrushComponent0) Component already registered.
+[2018.05.07-17.25.00:691][288]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush138.BrushComponent0) Component already registered.
+[2018.05.07-17.25.00:691][288]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ChurchV1.ChurchV1:PersistentLevel.BoxBrush136.BrushComponent0) Component already registered.
+[2018.05.07-17.25.40:602][426]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.05.07-17.25.41:973][574]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.07-17.25.41:979][574]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ChurchV1" FILE="C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.05.07-17.25.42:580][574]LogSavePackage: Save=538.09ms
+[2018.05.07-17.25.42:580][574]LogSavePackage: Moving 'C:/Users/i3/Documents/GitHub/BRG_Project/Saved/ChurchV1A10AC1D24A0718FECEF0EA987C37352C.tmp' to 'C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap'
+[2018.05.07-17.25.42:683][574]LogSavePackage: Display: Finished SavePackage C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap
+[2018.05.07-17.25.42:783][574]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ChurchV1_BuiltData" FILE="C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset" SILENT=true
+[2018.05.07-17.25.42:801][574]LogSavePackage: Save=10.05ms
+[2018.05.07-17.25.42:801][574]LogSavePackage: Moving 'C:/Users/i3/Documents/GitHub/BRG_Project/Saved/ChurchV1_BuiltDataF250CAFB40142D318768B3BEC0D30F50.tmp' to 'C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset'
+[2018.05.07-17.25.42:803][574]LogSavePackage: Display: Finished SavePackage C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset
+[2018.05.07-17.27.08:757][ 69]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.07-17.27.08:762][ 69]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ChurchV1" FILE="C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.05.07-17.27.09:313][ 69]LogSavePackage: Save=533.90ms
+[2018.05.07-17.27.09:313][ 69]LogSavePackage: Moving 'C:/Users/i3/Documents/GitHub/BRG_Project/Saved/ChurchV1CB8640CD4D5DCAF5D759E1ADA7DB41D1.tmp' to 'C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap'
+[2018.05.07-17.27.09:316][ 69]LogSavePackage: Display: Finished SavePackage C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap
+[2018.05.07-17.27.09:331][ 69]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ChurchV1_BuiltData" FILE="C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset" SILENT=true
+[2018.05.07-17.27.09:346][ 69]LogSavePackage: Save=11.32ms
+[2018.05.07-17.27.09:346][ 69]LogSavePackage: Moving 'C:/Users/i3/Documents/GitHub/BRG_Project/Saved/ChurchV1_BuiltDataA215415E44E4D73C333BFA9C1C13CE33.tmp' to 'C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset'
+[2018.05.07-17.27.09:349][ 69]LogSavePackage: Display: Finished SavePackage C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset
+[2018.05.07-17.27.34:459][898]LogInit: XAudio2 using 'Zestaw słuchawkowy (Microsoft LifeChat LX-3000 )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.07-17.27.34:607][909]LogInit: XAudio2 using 'Zestaw słuchawkowy (Microsoft LifeChat LX-3000 )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.07-17.28.52:168][809]Cmd: SELECT NONE
+[2018.05.07-17.29.21:637][299]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.07-17.29.21:642][299]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ChurchV1" FILE="C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.05.07-17.29.22:192][299]LogSavePackage: Save=533.90ms
+[2018.05.07-17.29.22:193][299]LogSavePackage: Moving 'C:/Users/i3/Documents/GitHub/BRG_Project/Saved/ChurchV1AEF1E360429B12FBBEC6738476A260AF.tmp' to 'C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap'
+[2018.05.07-17.29.22:212][299]LogSavePackage: Display: Finished SavePackage C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1.umap
+[2018.05.07-17.29.22:239][299]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ChurchV1_BuiltData" FILE="C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset" SILENT=true
+[2018.05.07-17.29.22:253][299]LogSavePackage: Save=9.91ms
+[2018.05.07-17.29.22:253][299]LogSavePackage: Moving 'C:/Users/i3/Documents/GitHub/BRG_Project/Saved/ChurchV1_BuiltDataD5BC852F441B15138DD7248579C2A23D.tmp' to 'C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset'
+[2018.05.07-17.29.22:256][299]LogSavePackage: Display: Finished SavePackage C:/Users/i3/Documents/GitHub/BRG_Project/Content/Maps/ChurchV1_BuiltData.uasset
