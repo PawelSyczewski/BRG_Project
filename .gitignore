@@ -62,3 +62,8 @@ Intermediate/*
 *.sdf
 *.sln
 *.vc.db
+Intermediate/CachedAssetRegistry.bin
+Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+Saved/AutoScreenshot.png
+Saved/Config/Windows/EditorPerProjectUserSettings.ini
+Saved/Logs/BRG_Project.log
