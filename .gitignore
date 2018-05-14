@@ -51,9 +51,9 @@ Temporary Items
 
 #Moje modyfikacje
 
-*/Build
-*/Binaries
-*/Intermediate
-*/DerivedDataCache
-*/Saved
+Build/*
+Binaries/*
+Intermediate/*
+DerivedDataCache/*
+Saved/*
 *.VC.db
