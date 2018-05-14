@@ -49,21 +49,11 @@ Temporary Items
 
 
 
-#przyklad gitignora dla Unrealowego projektu https://github.com/samsheff/UE4-Gitignore/blob/master/UE4.gitignore
+#Moje modyfikacje
 
-Saved/*
-Binaries/*
-Intermediate/*
-
-*.xcodeproj
-*.sln
-*.suo
-*.opensdf
-*.sdf
-*.sln
-*.vc.db
-Intermediate/CachedAssetRegistry.bin
-Intermediate/Config/CoalescedSourceConfigs/Engine.ini
-Saved/AutoScreenshot.png
-Saved/Config/Windows/EditorPerProjectUserSettings.ini
-Saved/Logs/BRG_Project.log
+*/Build
+*/Binaries
+*/Intermediate
+*/DerivedDataCache
+*/Saved
+*.VC.db
