@@ -1,3 +1,0 @@
-C:\Users\Pawel\Desktop\UnrealGames\BRG_Project\Source\BRG_Project\BRG_Project.Build.cs
-C:\Users\Pawel\Desktop\UnrealGames\BRG_Project\Source\BRG_Project.Target.cs
-C:\Users\Pawel\Desktop\UnrealGames\BRG_Project\Source\BRG_ProjectEditor.Target.cs
