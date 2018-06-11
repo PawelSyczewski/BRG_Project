@@ -57,3 +57,6 @@ Intermediate/*
 DerivedDataCache/*
 Saved/*
 *.VC.db
+*.suo
+*.VC.opendb
+*.sln
